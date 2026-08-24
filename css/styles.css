@@ -1,0 +1,53 @@
+body {
+  background-color: #efebe3;
+}
+
+.hazard-strip {
+  background-image: repeating-linear-gradient(
+    -45deg,
+    #f2b400,
+    #f2b400 8px,
+    #1c1b1a 8px,
+    #1c1b1a 16px
+  );
+}
+
+::-webkit-scrollbar {
+  height: 0;
+  width: 0;
+}
+
+.chip {
+  transition: background-color 0.15s ease, color 0.15s ease, transform 0.1s ease;
+}
+
+.chip:active {
+  transform: scale(0.96);
+}
+
+.card-enter {
+  animation: cardIn 0.28s ease both;
+}
+
+@keyframes cardIn {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .card-enter {
+    animation: none;
+  }
+}
+
+input:focus-visible,
+button:focus-visible {
+  outline: 2px solid #1c1b1a;
+  outline-offset: 2px;
+}

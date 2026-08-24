@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  <title>Fachmanka — Překladač řemeslné hantýrky</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;800&family=IBM+Plex+Mono:wght@500;600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            ink: '#1C1B1A',
+            paper: '#EFEBE3',
+            paperdim: '#E2DDD2',
+            card: '#FAF8F3',
+            steel: '#33505C',
+            steeldim: '#E7EEEF',
+            olive: '#4E5B33',
+            olivedim: '#EAECDF',
+            graphite: '#57544C',
+            graphitedim: '#EAE7DD',
+            brick: '#9A3E29',
+            brickdim: '#F3E2D9',
+            hazard: '#F2B400',
+          },
+          fontFamily: {
+            display: ['"Big Shoulders Display"', 'sans-serif'],
+            body: ['"Inter"', 'sans-serif'],
+            mono: ['"IBM Plex Mono"', 'monospace'],
+          },
+        }
+      }
+    }
+  </script>
+</head>
+<body class="font-body text-ink min-h-screen pb-16">
+
+  <header class="sticky top-0 z-20 bg-ink text-paper shadow-md">
+    <div class="max-w-2xl mx-auto px-4 pt-4 pb-4">
+      <div class="flex items-baseline justify-between">
+        <h1 class="font-display font-800 text-3xl tracking-tight leading-none">
+          FACHMANKA
+        </h1>
+        <span class="font-mono text-[10px] uppercase tracking-widest text-hazard">Stavba · Rekonstrukce</span>
+      </div>
+      <p class="text-xs text-paper/60 mt-0.5 mb-3">Stavba, rekonstrukce, materiál nebo technologie — zadejte pojem, přeložíme ho.</p>
+
+      <div class="relative">
+        <svg class="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-ink/50" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.2">
+          <circle cx="11" cy="11" r="7"></circle>
+          <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+        <input
+          id="searchInput"
+          type="text"
+          inputmode="search"
+          autocomplete="off"
+          placeholder="Např. „vícepráce“…"
+          class="w-full bg-paper text-ink placeholder-ink/40 rounded-xl pl-10 pr-10 py-3.5 text-base font-medium focus:outline-none focus:ring-2 focus:ring-hazard"
+        >
+        <button
+          id="clearBtn"
+          type="button"
+          aria-label="Vymazat"
+          class="hidden absolute right-2.5 top-1/2 -translate-y-1/2 w-6 h-6 rounded-full bg-ink/10 text-ink/60 items-center justify-center"
+        >
+          <svg class="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6">
+            <line x1="5" y1="5" x2="19" y2="19"></line>
+            <line x1="19" y1="5" x2="5" y2="19"></line>
+          </svg>
+        </button>
+      </div>
+
+      <div id="categoryChips" class="flex flex-wrap gap-2 mt-3"></div>
+    </div>
+  </header>
+
+  <div class="max-w-2xl mx-auto px-4 mt-4 mb-2">
+    <p id="resultCount" class="text-xs font-mono uppercase tracking-wider text-ink/50" aria-live="polite"></p>
+  </div>
+
+  <main id="cardList" class="max-w-2xl mx-auto px-4 flex flex-col gap-4"></main>
+
+  <div id="startState" class="hidden max-w-2xl mx-auto px-6 mt-8 text-center" aria-hidden="true">
+    <div class="text-4xl mb-3">🧱🔎</div>
+    <p class="font-display font-800 text-xl mb-1">Co potřebujete přeložit?</p>
+    <p class="text-ink/70 text-sm max-w-xs mx-auto mb-5">Zadejte pojem z rozpočtu, smlouvy nebo od řemeslníka — ať jde o stavbu, rekonstrukci, materiál nebo technologii. Přeložíme ho a vysvětlíme, co znamená v praxi.</p>
+    <p class="text-[10px] font-mono uppercase tracking-widest text-ink/40 mb-2.5">Zkuste například</p>
+    <div id="tipChips" class="flex flex-wrap gap-2 justify-center"></div>
+  </div>
+
+  <div id="emptyState" class="hidden max-w-2xl mx-auto px-6 mt-10 text-center" aria-hidden="true">
+    <div class="text-4xl mb-3">🔎🧱</div>
+    <p class="font-display font-800 text-xl mb-1">Tento pojem tu ještě nemáme.</p>
+    <p class="text-ink/70 text-sm max-w-xs mx-auto">Zkuste jiný výraz, jinou kategorii, nebo nám pojem napište a my ho přeložíme.</p>
+  </div>
+
+  <footer class="max-w-2xl mx-auto px-4 mt-14 text-center">
+    <p class="text-[11px] text-ink/40 font-mono">FACHMANKA — společná řeč investorů a dodavatelů</p>
+  </footer>
+
+  <script src="js/terms.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
