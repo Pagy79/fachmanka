@@ -40,64 +40,62 @@
 </head>
 <body class="font-sans antialiased bg-background text-foreground min-h-screen">
 
-  <header class="sticky top-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border">
-    <div class="max-w-2xl mx-auto px-4 sm:px-6 pt-8 pb-4">
-      <div class="text-center mb-6">
-        <h1 class="font-serif text-3xl sm:text-4xl md:text-5xl font-bold leading-tight text-foreground">
-          Překladač ze stavební řeči
-        </h1>
-        <p class="text-sm sm:text-base text-muted-fg mt-3 max-w-xl mx-auto">Zadejte pojem ze smlouvy, rozpočtu nebo od řemeslníka. Přeložíme ho a ukážeme, co z toho plyne v praxi.</p>
-      </div>
+  <div class="relative max-w-2xl mx-auto px-4 sm:px-6 pt-5 pb-10">
+    <img
+      src="images/fachmanka-logo.png"
+      alt="Fachmanka.cz"
+      class="absolute top-5 right-4 sm:right-6 w-14 h-14 sm:w-16 sm:h-16 rounded-full object-cover"
+    >
 
-        <div class="relative">
-          <svg class="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-muted-fg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-            <circle cx="11" cy="11" r="7"></circle>
-            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+    <header class="pr-[4.5rem] sm:pr-20 mb-5">
+      <p class="font-serif text-2xl sm:text-3xl md:text-4xl font-bold leading-tight text-foreground">
+        Překladač ze stavební řeči
+      </p>
+      <h1 class="font-serif text-xl sm:text-2xl font-bold mt-4 mb-2">
+        Co potřebujete přeložit?
+      </h1>
+      <p class="text-sm text-muted-fg max-w-md mb-4">
+        Zadejte pojem z rozpočtu, smlouvy nebo od řemeslníka. Ať jde o stavbu, rekonstrukci, materiál nebo technologii.
+      </p>
+      <p class="text-[10px] font-semibold uppercase tracking-wider text-primary mb-2">Zkuste například</p>
+      <div id="tipChips" class="flex flex-wrap gap-2 mb-5"></div>
+
+      <div class="relative">
+        <svg class="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-muted-fg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <circle cx="11" cy="11" r="7"></circle>
+          <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+        <input
+          id="searchInput"
+          type="text"
+          inputmode="search"
+          autocomplete="off"
+          placeholder="Např. „vícepráce“…"
+          class="w-full bg-card text-foreground placeholder-muted-fg rounded-xl border-2 border-border pl-11 pr-11 py-3.5 text-base font-medium focus:outline-none focus:border-primary focus:ring-2 focus:ring-primary/20"
+        >
+        <button
+          id="clearBtn"
+          type="button"
+          aria-label="Vymazat"
+          class="hidden absolute right-2.5 top-1/2 -translate-y-1/2 w-7 h-7 rounded-full bg-muted text-muted-fg items-center justify-center"
+        >
+          <svg class="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6">
+            <line x1="5" y1="5" x2="19" y2="19"></line>
+            <line x1="19" y1="5" x2="5" y2="19"></line>
           </svg>
-          <input
-            id="searchInput"
-            type="text"
-            inputmode="search"
-            autocomplete="off"
-            placeholder="Např. „vícepráce“…"
-            class="w-full bg-card text-foreground placeholder-muted-fg rounded-xl border-2 border-border pl-11 pr-11 py-3.5 text-base font-medium focus:outline-none focus:border-primary focus:ring-2 focus:ring-primary/20"
-          >
-          <button
-            id="clearBtn"
-            type="button"
-            aria-label="Vymazat"
-            class="hidden absolute right-2.5 top-1/2 -translate-y-1/2 w-7 h-7 rounded-full bg-muted text-muted-fg items-center justify-center"
-          >
-            <svg class="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6">
-              <line x1="5" y1="5" x2="19" y2="19"></line>
-              <line x1="19" y1="5" x2="5" y2="19"></line>
-            </svg>
-          </button>
-        </div>
-
-        <div id="categoryChips" class="flex flex-wrap gap-2 mt-3 justify-center"></div>
+        </button>
       </div>
+
+      <div id="categoryChips" class="flex flex-wrap gap-2 mt-3"></div>
+    </header>
+
+    <p id="resultCount" class="text-xs font-medium uppercase tracking-wider text-muted-fg mb-3 min-h-[1rem]" aria-live="polite"></p>
+    <main id="cardList" class="flex flex-col gap-4"></main>
+
+    <div id="emptyState" class="hidden mt-8 text-center" aria-hidden="true">
+      <p class="font-serif text-2xl font-bold mb-2">Tento pojem tu ještě nemáme.</p>
+      <p class="text-muted-fg text-sm max-w-sm mx-auto">Zkuste jiný výraz nebo jinou kategorii.</p>
     </div>
-  </header>
-
-  <div class="max-w-2xl mx-auto px-4 sm:px-6 mt-4 mb-2">
-    <p id="resultCount" class="text-xs font-medium uppercase tracking-wider text-muted-fg" aria-live="polite"></p>
-  </div>
-
-  <main id="cardList" class="max-w-2xl mx-auto px-4 sm:px-6 flex flex-col gap-4 pb-8"></main>
-
-  <div id="startState" class="hidden max-w-2xl mx-auto px-6 mt-10 text-center" aria-hidden="true">
-    <img src="images/fachmanka-logo.png" alt="" class="w-20 h-20 mx-auto mb-4 rounded-full object-cover shadow-md">
-    <p class="font-serif text-2xl font-bold mb-2">Co potřebujete přeložit?</p>
-    <p class="text-muted-fg text-sm max-w-md mx-auto mb-6">Zadejte pojem z rozpočtu, smlouvy nebo od řemeslníka. Ať jde o stavbu, rekonstrukci, materiál nebo technologii.</p>
-    <p class="text-xs font-medium uppercase tracking-wider text-primary mb-3">Zkuste například</p>
-    <div id="tipChips" class="flex flex-wrap gap-2 justify-center"></div>
-  </div>
-
-  <div id="emptyState" class="hidden max-w-2xl mx-auto px-6 mt-12 text-center" aria-hidden="true">
-    <p class="font-serif text-2xl font-bold mb-2">Tento pojem tu ještě nemáme.</p>
-    <p class="text-muted-fg text-sm max-w-sm mx-auto mb-6">Zkuste jiný výraz, jinou kategorii, nebo nám ho napište a my ho přeložíme.</p>
-    <a href="https://www.fachmanka.cz/#kontakt" class="inline-flex items-center gap-2 bg-primary text-primary-fg px-6 py-2.5 rounded-full font-medium hover:bg-[#00482a] transition-colors">Napsat Fachmance</a>
   </div>
 
   <script src="js/terms.js"></script>

@@ -50,7 +50,6 @@
   if (!categories.includes(category)) category = "Vše";
 
   const cardList = document.getElementById("cardList");
-  const startState = document.getElementById("startState");
   const emptyState = document.getElementById("emptyState");
   const tipChips = document.getElementById("tipChips");
   const categoryChips = document.getElementById("categoryChips");
@@ -138,18 +137,13 @@
     clearBtn.classList.toggle("hidden", q.length === 0);
     clearBtn.classList.toggle("flex", q.length > 0);
 
-    if (q.length === 0 && category === "Vše") {
+    if (q.length === 0) {
       cardList.innerHTML = "";
       resultCount.textContent = "";
       emptyState.classList.add("hidden");
-      startState.classList.remove("hidden");
-      startState.setAttribute("aria-hidden", "false");
       emptyState.setAttribute("aria-hidden", "true");
       return;
     }
-
-    startState.classList.add("hidden");
-    startState.setAttribute("aria-hidden", "true");
 
     const filtered = searchIndex
       .filter((entry) => {
