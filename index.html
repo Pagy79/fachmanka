@@ -41,34 +41,13 @@
 <body class="font-sans antialiased bg-background text-foreground min-h-screen">
 
   <header class="sticky top-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border">
-    <div class="max-w-2xl mx-auto px-4 sm:px-6">
-      <div class="flex items-center justify-between h-16">
-        <a href="https://www.fachmanka.cz/" class="flex items-center gap-2 group">
-          <span class="flex items-center justify-center w-10 h-10 bg-primary rounded-lg">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-primary-fg" aria-hidden="true">
-              <path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8"></path>
-              <path d="M3 10a2 2 0 0 1 .709-1.528l7-6a2 2 0 0 1 2.582 0l7 6A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
-            </svg>
-          </span>
-          <span class="font-semibold text-lg text-foreground">Fachmanka</span>
-        </a>
-        <nav class="hidden sm:flex items-center gap-5 text-sm">
-          <a class="text-muted-fg hover:text-foreground transition-colors" href="https://www.fachmanka.cz/vyber-mistnosti">Jak to funguje</a>
-          <a class="text-muted-fg hover:text-foreground transition-colors" href="https://www.fachmanka.cz/workshopy">Kurzy</a>
-          <a class="bg-primary text-primary-fg px-4 py-2 rounded-full hover:bg-[#00482a] transition-colors font-medium" href="https://www.fachmanka.cz/#kontakt">Napište nám</a>
-        </nav>
-      </div>
-
-      <div class="pb-4">
-        <span class="inline-flex items-center gap-2 bg-secondary text-primary text-sm font-medium px-4 py-1.5 rounded-full mb-3">
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-            <path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"></path>
-            <path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"></path>
-          </svg>
+    <div class="max-w-2xl mx-auto px-4 sm:px-6 pt-8 pb-4">
+      <div class="text-center mb-6">
+        <h1 class="font-serif text-3xl sm:text-4xl md:text-5xl font-bold leading-tight text-foreground">
           Překladač ze stavební řeči
-        </span>
-        <h1 class="font-serif text-2xl sm:text-3xl font-bold leading-tight mb-2">Co to v rozpočtu vlastně znamená?</h1>
-        <p class="text-sm text-muted-fg mb-4 max-w-xl">Zadejte pojem ze smlouvy, rozpočtu nebo od řemeslníka. Přeložíme ho a ukážeme, co z toho plyne v praxi.</p>
+        </h1>
+        <p class="text-sm sm:text-base text-muted-fg mt-3 max-w-xl mx-auto">Zadejte pojem ze smlouvy, rozpočtu nebo od řemeslníka. Přeložíme ho a ukážeme, co z toho plyne v praxi.</p>
+      </div>
 
         <div class="relative">
           <svg class="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-muted-fg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
@@ -96,7 +75,7 @@
           </button>
         </div>
 
-        <div id="categoryChips" class="flex flex-wrap gap-2 mt-3"></div>
+        <div id="categoryChips" class="flex flex-wrap gap-2 mt-3 justify-center"></div>
       </div>
     </div>
   </header>
@@ -120,11 +99,6 @@
     <p class="text-muted-fg text-sm max-w-sm mx-auto mb-6">Zkuste jiný výraz, jinou kategorii, nebo nám ho napište a my ho přeložíme.</p>
     <a href="https://www.fachmanka.cz/#kontakt" class="inline-flex items-center gap-2 bg-primary text-primary-fg px-6 py-2.5 rounded-full font-medium hover:bg-[#00482a] transition-colors">Napsat Fachmance</a>
   </div>
-
-  <footer class="max-w-2xl mx-auto px-4 sm:px-6 mt-16 mb-10 pt-8 border-t border-border text-center">
-    <a href="https://www.fachmanka.cz/" class="text-sm text-muted-fg hover:text-primary transition-colors">← Zpět na fachmanka.cz</a>
-    <p class="text-xs text-muted-fg mt-3">Společná řeč investorů a dodavatelů</p>
-  </footer>
 
   <script src="js/terms.js"></script>
   <script src="js/app.js"></script>
