@@ -2,11 +2,11 @@
   const terms = window.FACHMANKA_TERMS || [];
 
   const categoryStyle = {
-    Rozpočet: { badge: "bg-steeldim text-steel" },
-    "Hrubá stavba": { badge: "bg-graphitedim text-graphite" },
-    Dokončovačky: { badge: "bg-olivedim text-olive" },
-    Materiál: { badge: "bg-brickdim text-brick" },
-    Technologie: { badge: "bg-paperdim text-ink/70" },
+    Rozpočet: { badge: "bg-primary/10 text-primary" },
+    "Hrubá stavba": { badge: "bg-secondary text-foreground" },
+    Dokončovačky: { badge: "bg-[#bdd7b0]/60 text-primary" },
+    Materiál: { badge: "bg-blue-50 text-blue-700" },
+    Technologie: { badge: "bg-muted text-foreground" },
   };
 
   const categories = ["Vše", ...Object.keys(categoryStyle)];
@@ -74,7 +74,7 @@
       <button
         type="button"
         data-tip="${escapeHtml(name)}"
-        class="chip whitespace-nowrap font-mono text-xs font-semibold px-3.5 py-2 rounded-full bg-paper text-ink/70 border border-ink/10"
+        class="chip whitespace-nowrap text-xs font-semibold px-3.5 py-2 rounded-full bg-card text-foreground border-2 border-border hover:border-primary/50"
       >${escapeHtml(name)}</button>
     `
       )
@@ -95,14 +95,14 @@
       .map((name) => {
         const active =
           name === category
-            ? "bg-ink text-paper border-ink"
-            : "bg-paper text-ink/70 border-ink/10";
+            ? "bg-primary text-primary-fg border-primary"
+            : "bg-card text-muted-fg border-border hover:border-primary/50";
         return `
         <button
           type="button"
           data-kat="${escapeHtml(name)}"
           aria-pressed="${name === category}"
-          class="chip whitespace-nowrap font-mono text-[11px] font-semibold px-3 py-1.5 rounded-full border ${active}"
+          class="chip whitespace-nowrap text-[11px] font-semibold px-3 py-1.5 rounded-full border-2 ${active}"
         >${escapeHtml(name)}</button>
       `;
       })
@@ -172,36 +172,33 @@
 
     cardList.innerHTML = filtered
       .map((t) => {
-        const style = categoryStyle[t.kategorie] || { badge: "bg-paperdim text-ink/70" };
+        const style = categoryStyle[t.kategorie] || { badge: "bg-muted text-foreground" };
         const num = String(t.id).padStart(2, "0");
         return `
-        <article class="card-enter bg-card rounded-2xl border border-ink/10 shadow-sm overflow-hidden">
-          <div class="px-5 pt-4 pb-3 flex items-start justify-between gap-3">
+        <article class="card-enter bg-card rounded-2xl border-2 border-border hover:border-primary/50 shadow-sm overflow-hidden">
+          <div class="px-5 pt-5 pb-3 flex items-start justify-between gap-3">
             <div>
-              <p class="font-mono text-[10px] tracking-widest text-ink/35 mb-0.5">POJEM Č. ${num}</p>
-              <h2 class="font-display font-800 text-2xl leading-none">${escapeHtml(t.pojem)}</h2>
+              <p class="text-[10px] font-semibold tracking-widest uppercase text-muted-fg mb-1">Pojem č. ${num}</p>
+              <h2 class="font-serif font-bold text-2xl leading-tight text-foreground">${escapeHtml(t.pojem)}</h2>
             </div>
-            <span class="shrink-0 font-mono text-[10px] font-semibold uppercase tracking-wide px-2.5 py-1 rounded-full ${style.badge}">
+            <span class="shrink-0 text-[10px] font-semibold uppercase tracking-wide px-2.5 py-1 rounded-full ${style.badge}">
               ${escapeHtml(t.kategorie)}
             </span>
           </div>
 
-          <div class="px-5 py-3 flex gap-2.5 items-start bg-steeldim/60 text-steel border-t border-ink/5">
-            ${infoIcon}
+          <div class="px-5 py-4 flex gap-2.5 items-start bg-secondary/80 text-foreground border-t border-border">
+            <span class="text-primary mt-[1px]">${infoIcon}</span>
             <div>
-              <p class="text-[10px] font-mono uppercase tracking-wide opacity-70 mb-0.5">Co to znamená</p>
-              <p class="text-sm text-ink/85 leading-snug">${escapeHtml(t.preklad)}</p>
+              <p class="text-[10px] font-semibold uppercase tracking-wide text-primary mb-0.5">Co to znamená</p>
+              <p class="text-sm text-foreground/85 leading-relaxed">${escapeHtml(t.preklad)}</p>
             </div>
           </div>
 
-          <div class="flex">
-            <div class="hazard-strip w-2 shrink-0"></div>
-            <div class="px-5 py-3 flex gap-2.5 items-start bg-brickdim/70 flex-1">
-              <span class="text-brick mt-[1px]">${warnIcon}</span>
-              <div>
-                <p class="text-[10px] font-mono uppercase tracking-wide text-brick/80 mb-0.5">V praxi to znamená</p>
-                <p class="text-sm text-ink/85 leading-snug">${escapeHtml(t.realita)}</p>
-              </div>
+          <div class="px-5 py-4 flex gap-2.5 items-start bg-primary/5">
+            <span class="text-primary mt-[1px]">${warnIcon}</span>
+            <div>
+              <p class="text-[10px] font-semibold uppercase tracking-wide text-primary mb-0.5">V praxi to znamená</p>
+              <p class="text-sm text-foreground/85 leading-relaxed">${escapeHtml(t.realita)}</p>
             </div>
           </div>
         </article>

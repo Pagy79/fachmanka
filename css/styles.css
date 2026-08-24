@@ -1,28 +1,28 @@
+:root {
+  --background: #f9f5ec;
+  --foreground: #19251e;
+  --card: #ffffff;
+  --primary: #005833;
+  --primary-foreground: #ffffff;
+  --secondary: #f0ebe0;
+  --muted: #e7e4df;
+  --muted-foreground: #6b736e;
+  --accent: #92bc7c;
+  --border: #dad7d0;
+  --radius: 0.75rem;
+}
+
 body {
-  background-color: #efebe3;
-}
-
-.hazard-strip {
-  background-image: repeating-linear-gradient(
-    -45deg,
-    #f2b400,
-    #f2b400 8px,
-    #1c1b1a 8px,
-    #1c1b1a 16px
-  );
-}
-
-::-webkit-scrollbar {
-  height: 0;
-  width: 0;
+  background-color: var(--background);
+  color: var(--foreground);
 }
 
 .chip {
-  transition: background-color 0.15s ease, color 0.15s ease, transform 0.1s ease;
+  transition: background-color 0.15s ease, color 0.15s ease, border-color 0.15s ease, transform 0.1s ease;
 }
 
 .chip:active {
-  transform: scale(0.96);
+  transform: scale(0.97);
 }
 
 .card-enter {
@@ -47,7 +47,8 @@ body {
 }
 
 input:focus-visible,
-button:focus-visible {
-  outline: 2px solid #1c1b1a;
+button:focus-visible,
+a:focus-visible {
+  outline: 2px solid var(--primary);
   outline-offset: 2px;
 }
