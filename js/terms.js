@@ -17,8 +17,8 @@ window.FACHMANKA_TERMS = [
     "id": 3,
     "pojem": "Technologická pauza",
     "kategorie": "Hrubá stavba",
-    "preklad": "Doba pro schnutí materiálů.",
-    "realita": "Je to fyzikální proces, který se nedá uspěchat bez rizika – čerstvý beton nebo omítka potřebují čas na vyzrání, jinak popraská nebo ztratí pevnost. Pauza bývá součástí harmonogramu už od začátku, takže se na ni dá dopředu naplánovat, aby nezpůsobila stres v posledních týdnech."
+    "preklad": "Čas, který musí uplynout, než materiál vyzraje nebo zaschne natolik, aby se na něj mohlo navázat další prací – typicky beton, potěr, omítka nebo hydroizolace.",
+    "realita": "Část pauz je fyzika a nedá se uspěchat bez rizika prasklin nebo ztráty pevnosti. Stejný pojem se ale občas používá i na čekání, až se uvolní jiná parta. Nechte si říct, jestli pauza plyne z technického listu materiálu, nebo z kapacity firmy, a zapište ji do harmonogramu předem."
   },
   {
     "id": 4,
@@ -29,17 +29,17 @@ window.FACHMANKA_TERMS = [
   },
   {
     "id": 5,
-    "pojem": "Slepý rozpočet (Výkaz výměr)",
+    "pojem": "Slepý rozpočet",
     "kategorie": "Rozpočet",
-    "preklad": "Rozpočet s popisem prací a jejich množstvím, ale bez cen – ty do něj doplňují firmy, které se uchází o zakázku. Slouží k tomu, abyste mohli srovnat nabídky „jablka s jablky“.",
-    "realita": "Aby šly nabídky od různých firem opravdu srovnat, musí všechny oceňovat stejný výkaz výměr od jednoho projektanta – jinak porovnáváte jablka s hruškami. Pokud výkaz sestavuje sama nabízející firma, zeptejte se, jak jsou pokryté položky, které se běžně řeší až jako vícepráce."
+    "preklad": "Výkaz výměr ocenený bez cen: popis prací a množství je daný, ceny do něj doplňují firmy v soutěži. Díky tomu jdou nabídky srovnat položka po položce.",
+    "realita": "Aby srovnání dávalo smysl, musí všechny firmy oceňovat stejný výkaz od jednoho projektanta. Pokud výkaz sestavuje sama nabízející firma, zeptejte se, které položky tam chybí a řeší se až jako vícepráce."
   },
   {
     "id": 6,
     "pojem": "VRN (Vedlejší rozpočtové náklady)",
     "kategorie": "Rozpočet",
     "preklad": "Náklady spojené se stavbou jako takovou, ne s konkrétní prací – lešení, oplocení, buňka, doprava, úklid staveniště. Obvykle se počítají jako procento z celkové ceny.",
-    "realita": "Fér rozmezí bývá 3–8 % z rozpočtu, protože pokrývá reálné náklady na zázemí stavby jako lešení nebo úklid staveniště. Vyžádejte si rozpis, co přesně VRN obsahuje – u vyšších procent to pomůže pochopit, co cena zahrnuje, a případně ji porovnat s jinou nabídkou."
+    "realita": "U rodinného domu bývá VRN často v jednotkách procent, u stísněného staveniště, malé zakázky nebo náročného zařízení staveniště klidně víc. Není to univerzální „fér 3–8 %“. Vyžádejte si rozpis, co VRN obsahuje, a porovnejte ho s jinou nabídkou."
   },
   {
     "id": 7,
@@ -94,8 +94,8 @@ window.FACHMANKA_TERMS = [
     "id": 14,
     "pojem": "Stavební deník",
     "kategorie": "Rozpočet",
-    "preklad": "Úřední kniha, kam se denně zapisuje průběh stavby – počasí, kdo pracoval, co se dělalo, jaké vznikly problémy. Je to právně závazný dokument, ne formalita.",
-    "realita": "Je to sdílený, právně závazný záznam průběhu stavby, který se vyplatí číst pravidelně z obou stran – dodavateli i investorovi pomáhá mít stejný obrázek o tom, co se dělo a kdy. Pokud máte k zápisu připomínku, napište ji rovnou do deníku, ať je záznam kompletní."
+    "preklad": "Záznam průběhu stavby: počasí, kdo pracoval, co se dělalo, jaké vznikly problémy. U staveb, kde ho zákon vyžaduje, je to úřední dokument, ne formalita.",
+    "realita": "U novostaveb a větších zásahů se deník opravdu vede a vyplatí se ho číst. U drobné rekonstrukce bytu povinný být nemusí. Pokud se vede, připomínku pište rovnou do něj, ať mají obě strany stejný záznam."
   },
   {
     "id": 15,
@@ -148,17 +148,17 @@ window.FACHMANKA_TERMS = [
   },
   {
     "id": 22,
-    "pojem": "Nosník (překlad)",
+    "pojem": "Překlad",
     "kategorie": "Hrubá stavba",
-    "preklad": "Vodorovný prvek nad okenním nebo dveřním otvorem, který přenáší váhu zdiva nad otvorem dál do konstrukce.",
-    "realita": "Nesprávně dimenzovaný nebo špatně uložený překlad se projeví prasklinou nad oknem klidně až za pár let. Chtějte vidět typový výpočet, ne jen odhad „to tam vždycky dávám“."
+    "preklad": "Vodorovný prvek nad okenním nebo dveřním otvorem, který přenáší váhu zdiva nad otvorem do ostění. Není to totéž co nosník nebo průvlak ve stropě.",
+    "realita": "Špatně dimenzovaný nebo uložený překlad se projeví prasklinou nad oknem i za několik let. Chtějte vidět, jaký překlad (železobeton, systémový překlad, ocel) a podle jakého výpočtu se osazuje – ne odhad „to tam vždycky dávám“."
   },
   {
     "id": 23,
     "pojem": "Ztužující věnec",
     "kategorie": "Hrubá stavba",
-    "preklad": "Železobetonový pás po obvodu zdiva ve výšce stropu, který drží zdivo pohromadě a rozkládá zatížení.",
-    "realita": "Vynechání věnce kvůli úspoře je jedna z nejnebezpečnějších zkratek na stavbě – týká se stability celého patra. Pokud ho firma navrhuje vynechat „protože se to vejde do rozpočtu“, jde o červenou vlajku."
+    "preklad": "Železobetonový pás v úrovni stropu, který sváže obvodové i vnitřní nosné zdivo a roznese svislé i vodorovné zatížení (třeba vítr).",
+    "realita": "Vynechání věnce v patře kvůli úspoře je nebezpečná zkratka. Pokud ho firma navrhuje vynechat „protože se to vejde do rozpočtu“, jde o červenou vlajku. Korunní věnec pod krovem je další, samostatný prvek – viz heslo Korunní věnec."
   },
   {
     "id": 24,
@@ -179,7 +179,7 @@ window.FACHMANKA_TERMS = [
     "pojem": "Vaznice",
     "kategorie": "Hrubá stavba",
     "preklad": "Vodorovný nosný trám krovu, který podpírá krokve a přenáší jejich zatížení do sloupků nebo zdiva.",
-    "realita": "Průhyb nebo podddimenzovaná vaznice se projeví až roky po dokončení prohnutou střechou. Statický výpočet krovu by měl existovat písemně, ne jen v hlavě tesaře."
+    "realita": "Průhyb nebo poddimenzovaná vaznice se projeví až roky po dokončení prohnutou střechou. Statický výpočet krovu by měl existovat písemně, ne jen v hlavě tesaře."
   },
   {
     "id": 27,
@@ -207,7 +207,7 @@ window.FACHMANKA_TERMS = [
     "pojem": "Parozábrana",
     "kategorie": "Hrubá stavba",
     "preklad": "Fólie na vnitřní straně zateplené konstrukce, která brání vlhkému vzduchu z interiéru pronikat do izolace a kondenzovat v ní.",
-    "realita": "Netěsná nebo špatně přelepená parozábrana způsobí plíseň uvnitř konstrukce, kterou objevíte třeba až za pět let při rekonstrukci. Spoje musí být slepené systémovou páskou, ne obyčejnou lepicí."
+    "realita": "Netěsná nebo špatně přelepená parozábrana způsobí plíseň uvnitř konstrukce, kterou objevíte třeba až za pět let. Spoje lepte systémovou páskou. Nezaměňujte ji s parobrzdou: parozábrana má páru skoro zastavit, parobrzda ji jen zpomalí v difuzně otevřené skladbě."
   },
   {
     "id": 31,
@@ -332,14 +332,14 @@ window.FACHMANKA_TERMS = [
     "id": 48,
     "pojem": "SDK příčka",
     "kategorie": "Dokončovačky",
-    "preklad": "Nenosná dělící stěna z sádrokartonu na kovové konstrukci, rychlejší a levnější alternativa ke zděné příčce.",
+    "preklad": "Nenosná dělící stěna ze sádrokartonu na kovové konstrukci, rychlejší a často levnější alternativa ke zděné příčce.",
     "realita": "Kvalita zvukové izolace závisí na tom, čím je příčka vyplněná uvnitř (minerální vlna) – prázdná SDK příčka propouští zvuk skoro jako žádná. Ptejte se na skladbu, ne jen na tloušťku."
   },
   {
     "id": 49,
     "pojem": "Malba (nátěr) – počet vrstev",
     "kategorie": "Dokončovačky",
-    "preklad": "Kolikrát se stěna přetírá finální barvou – obvykle dvakrát, aby barva krytě a rovnoměrně zakryla podklad.",
+    "preklad": "Kolikrát se stěna přetírá finální barvou – obvykle dvakrát, aby barva kryla a rovnoměrně zakryla podklad.",
     "realita": "Jedna vrstva malby často prosvítá a vypadá skvrnitě zejména při umělém osvětlení. Trvejte na dvou vrstvách, i když to znamená o den déle – rozdíl je vidět hned."
   },
   {
@@ -395,14 +395,14 @@ window.FACHMANKA_TERMS = [
     "id": 57,
     "pojem": "Kolaudace / užívání stavby",
     "kategorie": "Dokončovačky",
-    "preklad": "Úřední proces, kterým se potvrzuje, že dokončená stavba odpovídá povolení a je bezpečná k užívání.",
-    "realita": "Nastěhování se před dokončením kolaudace je právně riskantní a může znamenat pokutu nebo problém při pojistné události. Trvejte na tom, aby firma dodala všechny podklady (revize, atesty) včas, ne až na poslední chvíli."
+    "preklad": "Úřední krok, kterým se stavba smí začít užívat. U novostaveb to bývá kolaudační souhlas nebo kolaudace, u řady rodinných domů stačí oznámení o užívání. Běžná rekonstrukce bytu často žádnou kolaudaci nemá.",
+    "realita": "Nastěhování „před kolaudací“ je problém hlavně tam, kde zákon užívání váže na souhlas úřadu. U malé rekonstrukce je důležitější mít revize, atesty a předávací protokol kvůli pojištění a reklamacím. Zeptejte se projektanta, jaký režim platí u vašeho konkrétního zásahu."
   },
   {
     "id": 58,
-    "pojem": "Pórobeton (Ytong)",
+    "pojem": "Pórobeton (např. Ytong)",
     "kategorie": "Materiál",
-    "preklad": "Lehký pórovitý stavební materiál z vápna, cementu a písku, vytvrzený v autoklávu – snadno se opracovává a dobře izoluje.",
+    "preklad": "Lehký pórovitý zdicí materiál z vápna, cementu a písku, vytvrzený v autoklávu. Ytong je obchodní značka, ne jediný výrobce.",
     "realita": "Nasákavost pórobetonu vyžaduje pečlivou hydroizolaci v soklu, jinak vzlíná vlhkost. Ptejte se, jestli firma počítá s touto vlastností, nebo jestli s pórobetonem prostě „umí zacházet jako s cihlou“."
   },
   {
@@ -626,7 +626,7 @@ window.FACHMANKA_TERMS = [
     "id": 90,
     "pojem": "Vzduchotěsnost (n50)",
     "kategorie": "Technologie",
-    "preklad": "Číselný ukazatel, kolikrát za hodinu se vymění vzduch v domě netěsnostmi při tlakovém rozdílu – čím nižší, tím těsnější dům.",
+    "preklad": "Ukazatel n50 z Blower door testu: kolikrát za hodinu se vymění vzduch v domě netěsnostmi při tlakovém rozdílu 50 pascalů. Čím nižší číslo, tím těsnější dům.",
     "realita": "Netěsný dům ztrácí teplo i přes sebelepší izolaci, protože vzduch prostě unikne škvírami. Hodnota n50 by měla být uvedena v projektu a ověřená blower door testem, ne jen slibem, že „dům bude těsný“."
   },
   {
@@ -683,7 +683,7 @@ window.FACHMANKA_TERMS = [
     "pojem": "Chráničky pod omítkou",
     "kategorie": "Technologie",
     "preklad": "Ohebné trubky, ve kterých vedou elektrické kabely schované pod omítkou – chrání kabel a umožňují ho v budoucnu vyměnit bez sekání.",
-    "realita": "Vedení kabelu přímo v omítce bez chráničky znemožňuje pozdější výměnu bez vysekání celé trasy. Vyžadujte chráničky u všech vedení, i když to firma nabízí jako „zbytečný“ krok navíc."
+    "realita": "Chránička usnadní pozdější výměnu kabelu bez sekání. Vedení CYKY ve zdivu bez chráničky je ale pořád běžné a u mnoha tras přípustné. Vyžadujte chráničky tam, kde se vedení může měnit (příprava na FVE, data, budoucí okruhy), ne nutně u každého metru kabelu."
   },
   {
     "id": 99,
@@ -767,7 +767,7 @@ window.FACHMANKA_TERMS = [
     "pojem": "Rozpočtový limit",
     "kategorie": "Rozpočet",
     "preklad": "Maximální částka, kterou je investor ochoten do projektu vložit – výchozí bod pro návrh rozsahu a standardu stavby.",
-    "realita": "Sdílení reálného limitu s projektantem a dodavatelem hned na začátku pomáhá navrhnout realistický projekt, místo aby se muselo drahoúsivě škrtat později. Otevřená komunikace o rozpočtu na obou stranách šetří čas i nervy."
+    "realita": "Sdílení reálného limitu s projektantem a dodavatelem hned na začátku pomáhá navrhnout realistický projekt, místo aby se muselo draze a narychlo škrtat později. Otevřená komunikace o rozpočtu šetří čas i nervy oběma stranám."
   },
   {
     "id": 111,
@@ -785,10 +785,10 @@ window.FACHMANKA_TERMS = [
   },
   {
     "id": 113,
-    "pojem": "Splátkový kalendář",
+    "pojem": "Vázaný účet (escrow)",
     "kategorie": "Rozpočet",
-    "preklad": "Harmonogram jednotlivých plateb v čase, obvykle navázaný na platební harmonogram stavby.",
-    "realita": "Jasně dohodnutý splátkový kalendář pomáhá oběma stranám plánovat cash flow. Případné zpoždění platby nebo prací stojí za včasnou komunikaci, ne až za řešení, když je problém akutní."
+    "preklad": "Peněžní prostředky leží u nezávislé třetí strany (notář, advokát, banka) a uvolňují se až po splnění dohodnutých podmínek, například po předání etapy.",
+    "realita": "Není to totéž co bankovní záruka. Tady se drží hotovost, u záruky banka jen slibuje plnit, když dodavatel selže. Má smysl u vyšších částek nebo u neznámého dodavatele. Ve smlouvě musí být jasné, kdo účet spravuje a za jakých podmínek se peníze pouští."
   },
   {
     "id": 114,
@@ -834,10 +834,10 @@ window.FACHMANKA_TERMS = [
   },
   {
     "id": 120,
-    "pojem": "Bankovní záruka / escrow",
+    "pojem": "Bankovní záruka",
     "kategorie": "Rozpočet",
-    "preklad": "Nástroj, kdy jsou finanční prostředky drženy nezávislou třetí stranou (bankou) a uvolňují se až po splnění dohodnutých podmínek.",
-    "realita": "U větších zakázek dává tento nástroj jistotu oběma stranám – investorovi, že peníze nezmizí bez odvedené práce, dodavateli, že prostředky na zaplacení skutečně existují. Stojí za zvážení u vyšších částek nebo neznámého dodavatele."
+    "preklad": "Slib banky, že investorovi (nebo naopak dodavateli) vyplatí dohodnutou částku, pokud druhá strana nesplní smlouvu – například nedokončí dílo nebo nezaplatí.",
+    "realita": "Nejde o úschovu vašich peněz. Banka ručí, ale peníze zůstávají u toho, kdo záruku objednal, dokud nenastane porušení. U větších zakázek se používá zvlášť na splnění díla a zvlášť na záruční vady. Úschovu peněz řeší vázaný účet."
   },
   {
     "id": 121,
@@ -857,8 +857,8 @@ window.FACHMANKA_TERMS = [
     "id": 123,
     "pojem": "Radonový průzkum",
     "kategorie": "Hrubá stavba",
-    "preklad": "Měření koncentrace radonu v podloží, které určuje, jestli a jak moc je potřeba stavbu proti radonu odizolovat.",
-    "realita": "Průzkum je u nás ze zákona povinnou součástí přípravy stavby a jeho výsledek přímo ovlivňuje návrh hydroizolace. Vyžádejte si protokol o měření jako podklad k projektu."
+    "preklad": "Zjištění radonového indexu pozemku. Podle výsledku se navrhne ochrana nové obytné stavby: radonová folie, odvětrání podloží, někdy i úprava hydroizolace.",
+    "realita": "U novostavby s pobytem osob to stavební úřad obvykle chce. U rekonstrukce bytu nebo nástavby to automaticky povinné být nemusí. Ochrana proti radonu také není totéž co hydroizolace proti vodě – ptejte se, co přesně projekt navrhuje a jestli je k tomu protokol o měření."
   },
   {
     "id": 124,
@@ -876,10 +876,10 @@ window.FACHMANKA_TERMS = [
   },
   {
     "id": 126,
-    "pojem": "Věnec (ztužující pás)",
+    "pojem": "Korunní věnec",
     "kategorie": "Hrubá stavba",
-    "preklad": "Vodorovný železobetonový pás v úrovni stropu, který spojuje zdivo do jednoho tuhého celku a přenáší vodorovná zatížení, například vítr.",
-    "realita": "Věnec je standardní a nezbytná součást konstrukce u zděných staveb, ne volitelný doplněk. Zeptejte se, jak je věnec navržený a vyztužený, hlavně u větších rozponů nebo výškových budov."
+    "preklad": "Železobetonový pás na koruně obvodového zdiva, na který sedí krov nebo pozednice. Je to jiný prvek než ztužující věnec v úrovni stropu mezi patry.",
+    "realita": "Bez korunního věnce krov nemá kam pořádně kotvit a zdivo pod střechou se hůř sváže. Zeptejte se, jak je věnec vyztužený a jak je krov kotvený – u větrných lokalit je to zásadní detail."
   },
   {
     "id": 127,
@@ -1114,10 +1114,10 @@ window.FACHMANKA_TERMS = [
   },
   {
     "id": 160,
-    "pojem": "Protiskluzová úprava dlažby (R-hodnota)",
+    "pojem": "Protiskluz dlažby (R-třída a A/B/C)",
     "kategorie": "Dokončovačky",
-    "preklad": "Klasifikace, jak moc je povrch dlažby kluzký, důležitá hlavně pro koupelny, terasy a venkovní schody.",
-    "realita": "Vyšší R-hodnota znamená bezpečnější, ale často i členitější a hůř čistitelný povrch – jde o kompromis mezi bezpečností a údržbou. Zvolte vyšší R-hodnotu tam, kde hrozí mokrá podlaha, třeba u sprchového koutu nebo venkovní terasy."
+    "preklad": "R9–R13 je zkouška v botách (ramp test) – hodí se na terasy, schody, vstup. Pro mokrou koupelnu a sprchu bosou nohou platí spíš třídy A / B / C.",
+    "realita": "Vyšší protiskluz bývá bezpečnější, ale hůř se čistí. Do sprchového koutu žádejte třídu B nebo C, ne „co nejvyšší R“. Na venkovní schody a terasu řešte R-třídu zvlášť."
   },
   {
     "id": 161,
@@ -1401,10 +1401,10 @@ window.FACHMANKA_TERMS = [
   },
   {
     "id": 201,
-    "pojem": "Predikce nákladů na energie (simulace)",
+    "pojem": "PENB (průkaz energetické náročnosti)",
     "kategorie": "Technologie",
-    "preklad": "Výpočtová simulace, která na základě projektu a klimatických dat odhaduje budoucí spotřebu a náklady na vytápění a chlazení domu.",
-    "realita": "Simulace dává přesnější představu o provozních nákladech než paušální odhad na metr čtvereční. Vyžádejte si ji hlavně při rozhodování mezi variantami zateplení nebo topného systému, ať víte, jaký je reálný rozdíl v korunách."
+    "preklad": "Povinný dokument, který zařazuje budovu do energetické třídy A–G a odhaduje spotřebu energie. Není to totéž co podrobná hodinová simulace, ale vychází z výpočtu podle vyhlášky.",
+    "realita": "PENB potřebujete u novostavby a často i při prodeji nebo větší změně vytápění. Berte ho jako úřední štítek, ne jako přesnou fakturu za topení. Při volbě zateplení nebo čerpadla žádejte i výpočet tepelné ztráty konkrétního domu."
   },
   {
     "id": 202,
@@ -1450,7 +1450,7 @@ window.FACHMANKA_TERMS = [
   },
   {
     "id": 208,
-    "pojem": "Cenový doložka o indexaci",
+    "pojem": "Cenová doložka o indexaci",
     "kategorie": "Rozpočet",
     "preklad": "Smluvní ujednání, které umožňuje upravit cenu podle vývoje cen materiálu nebo mezd během delší realizace.",
     "realita": "U delších zakázek nebo v obdobích vysoké inflace materiálu dává indexační doložka jistotu oběma stranám, že cena zůstane spravedlivá. Ptejte se, jestli smlouva takovou doložku obsahuje a jak přesně se index počítá."
@@ -1520,10 +1520,10 @@ window.FACHMANKA_TERMS = [
   },
   {
     "id": 218,
-    "pojem": "Rozpočet na projektové řízení (stavební dozor investora)",
+    "pojem": "Náklady na TDI (dozor investora)",
     "kategorie": "Rozpočet",
-    "preklad": "Náklady na najmutí odborníka, který za investora koordinuje a kontroluje průběh celé stavby, nejen technický dozor.",
-    "realita": "U rozsáhlejších projektů se tato investice často vrátí v podobě lépe koordinovaného postupu a méně nedorozumění mezi profesemi. Zvažte ji zvlášť u projektů, kde investor sám nemá čas nebo zkušenosti stavbu průběžně sledovat."
+    "preklad": "Položka v rozpočtu investora na honorář technického dozoru – není to náklad dodavatele, platíte ho vy zvlášť, aby hlídal kvalitu a fakturaci.",
+    "realita": "TDI nemá být „v ceně stavby“ od dodavatele, jinak hlídá sám sebe. Počítejte s ním vedle stavebního rozpočtu, podobně jako s projektantem. U menší rekonstrukce může stačit občasný dozor, u větší stavby pravidelný."
   },
   {
     "id": 219,
@@ -1618,10 +1618,10 @@ window.FACHMANKA_TERMS = [
   },
   {
     "id": 232,
-    "pojem": "Suterénní zdivo (vodostavební beton)",
+    "pojem": "Vodostavební beton (bílá vana)",
     "kategorie": "Hrubá stavba",
-    "preklad": "Speciální typ betonu s nízkou propustností vody, používaný na suterénní stěny místo klasické hydroizolace nebo jako její doplněk.",
-    "realita": "Vodostavební beton nahrazuje nebo doplňuje klasickou hydroizolaci, ale vyžaduje přesné technologické provedení spár a prostupů. Ptejte se, jestli firma má zkušenosti konkrétně s tímto typem betonu."
+    "preklad": "Beton s nízkou propustností vody, z něhož se lije suterén jako „bílá vana“. Není to zděný suterén s natavenou hydroizolací – to je jiná konstrukce.",
+    "realita": "Bílá vana umí nahradit nebo doplnit klasickou hydroizolaci, ale stojí a padá na spárách, prostupech a ošetření betonu. Ptejte se, jestli firma má zkušenost s vodostavebním betonem, ne jen s běžným zdivem s pásy."
   },
   {
     "id": 233,
@@ -2003,10 +2003,10 @@ window.FACHMANKA_TERMS = [
   },
   {
     "id": 287,
-    "pojem": "Predikce zatížení sítě (chytré řízení spotřeby)",
+    "pojem": "HDO (noční proud / dvoutarif)",
     "kategorie": "Technologie",
-    "preklad": "Systém, který plánuje spotřebu energeticky náročných spotřebičů (např. nabíjení auta, ohřev vody) podle aktuální ceny elektřiny nebo dostupné výroby z fotovoltaiky.",
-    "realita": "Tato technologie dává největší smysl v kombinaci s vlastní fotovoltaikou nebo variabilní cenou elektřiny. Zvažte ji jako doplněk, pokud už fotovoltaiku nebo baterii plánujete, ne jako samostatnou investici."
+    "preklad": "Hromadné dálkové ovládání: distributor přepíná levnější tarif (dřív „noční proud“) pro bojler, akumulaci nebo tepelné čerpadlo. Dnes už nemusí jít jen o noc.",
+    "realita": "Bez správně zapojeného stykače a sazby u distributora HDO nic nešetří. Zeptejte se elektrikáře, které spotřebiče jedou v nízkém tarifu a jestli se tarif hodí k tepelnému čerpadlu nebo FVE. Není to totéž co spotové ceny na trhu."
   },
   {
     "id": 288,
@@ -2045,24 +2045,24 @@ window.FACHMANKA_TERMS = [
   },
   {
     "id": 293,
-    "pojem": "Predikce vlhkosti konstrukce (senzorové monitorování)",
-    "kategorie": "Technologie",
-    "preklad": "Senzory zabudované do konstrukce, které dlouhodobě sledují vlhkost uvnitř stěny nebo střechy a upozorní na problém dřív, než je vidět zvenku.",
-    "realita": "Tato technologie je zatím spíš nadstandard, ale u rizikových konstrukcí (např. dřevostavby, ploché střechy) může včas odhalit skrytý problém. Zvažte ji hlavně u konstrukcí, kde je dodatečná kontrola po zabudování obtížná."
+    "pojem": "Parobrzda",
+    "kategorie": "Hrubá stavba",
+    "preklad": "Fólie nebo deska, která vodní páru výrazně brzdí, ale úplně ji nezastaví. Používá se v difuzně otevřených skladbách. Není to totéž co parozábrana, která má být téměř neprodyšná.",
+    "realita": "Záměna parobrzdy a parozábrany rozbije skladbu: pára se buď zavře ve stěně, nebo naopak uniká moc. Ptejte se na hodnotu Sd a na to, jestli má být spoj lepený systémovou páskou. Technický list fólie patří k předání, ne jen značka z hobbymarketu."
   },
   {
     "id": 294,
-    "pojem": "Predikce spotřeby energie (energetický management)",
+    "pojem": "Revize (elektro, plyn, komín)",
     "kategorie": "Technologie",
-    "preklad": "Software nebo zařízení sledující spotřebu jednotlivých okruhů v domě v reálném čase, umožňující identifikovat, kde se energie utrácí nejvíc.",
-    "realita": "Přehled o spotřebě po jednotlivých okruzích pomáhá odhalit neefektivní spotřebiče nebo zbytečné ztráty. Zvažte tuto technologii hlavně tehdy, když vás zajímá dlouhodobá optimalizace nákladů na energie, ne jen jednorázová úspora."
+    "preklad": "Povinná odborná kontrola instalace s protokolem. Bez revize elektro, plynu nebo spalinové cesty často nejde stavbu předat ani pojistit.",
+    "realita": "Revize není formalita na konci – vady se mají dořešit, ne „podepsat, ať to projde“. Termíny pravidelných revizí si zapište, pojišťovna se na ně při škodě ptá. Cenu revizí počítejte mimo samotné řemeslo."
   },
   {
     "id": 295,
-    "pojem": "Vzorová koupelna (showroom test)",
-    "kategorie": "Dokončovačky",
-    "preklad": "Praktická prohlídka obkladů, dlažby a sanity naživo v showroomu před finálním výběrem, místo rozhodování jen podle vzorníku nebo fotky.",
-    "realita": "Barvy a struktura materiálu vypadají na fotce nebo malém vzorníku často jinak než na velké ploše naživo. Vyhraďte si čas na prohlídku showroomu ještě před závazným výběrem, ať se vyhnete zklamání po dokončení."
+    "pojem": "Výkaz výměr",
+    "kategorie": "Rozpočet",
+    "preklad": "Soupis prací a množství (m², m³, hodiny) bez nebo s cenami. Je to podklad k rozpočtu. Slepý rozpočet je výkaz, do kterého firmy teprve doplňují jednotkové ceny.",
+    "realita": "Kdo sestavuje výkaz, ten drží pravítko soutěže. Nechte ho zpracovat projektantem nebo nezávislým rozpočtářem, ne jen nejlevnější firmou. Chybějící položky ve výkazu se později tváří jako vícepráce."
   },
   {
     "id": 296,
@@ -2080,24 +2080,24 @@ window.FACHMANKA_TERMS = [
   },
   {
     "id": 298,
-    "pojem": "Anticorová deska (protipožární sádrokarton)",
+    "pojem": "Protipožární sádrokarton (DF)",
     "kategorie": "Materiál",
-    "preklad": "Sádrokartonová deska se zvýšenou požární odolností díky skleněným vláknům v jádru, používaná tam, kde je požadovaná vyšší požární ochrana.",
-    "realita": "Použití standardní desky tam, kde je předepsaná protipožární, je běžná úspora, kterou po zakrytí nikdo neuvidí. Vyžádejte si typové označení desky, pokud je požární odolnost u dané konstrukce povinná."
+    "preklad": "Sádrokartonová deska typu DF (dříve GKF) se skleněnými vlákny v jádru a vyšší požární odolností. Říká se jí požární SDK, ne „anticorová deska“ – to je ochrana kovu proti korozi.",
+    "realita": "Tam, kde projekt předepisuje požární odolnost (garáž, únik, šachta), běžný bílý SDK nestačí. Po zakrytí to nikdo nepozná. Vyžádejte si označení DF / požární deska na dodacím listu a na hraně desky."
   },
   {
     "id": 299,
-    "pojem": "Predikce nákladů na údržbu domu",
-    "kategorie": "Technologie",
-    "preklad": "Odhad budoucích nákladů na běžnou údržbu a opravy domu (fasáda, střecha, technologie) na základě zvolených materiálů a systémů.",
-    "realita": "Levnější materiál nebo technologie na začátku může znamenat vyšší náklady na údržbu později – oba pohledy je fér zvážit společně. Ptejte se na doporučený interval údržby u klíčových prvků (fasáda, střecha, technologie) už při výběru."
+    "pojem": "Záruční doba a reklamace vad",
+    "kategorie": "Rozpočet",
+    "preklad": "Období po předání, kdy dodavatel musí bezplatně odstranit vady díla. U stavby bývá delší než u běžného zboží; konkrétní délku určuje smlouva a občanský zákoník.",
+    "realita": "Záruka neřeší opotřebení ani to, že jste zvolili levnější materiál s kratší životností. Vady zapisujte do předávacího protokolu a reklamujte písemně. Zádržné s tím souvisí, ale není totéž – zádržné je zadržená část ceny, záruka je právní povinnost opravit."
   },
   {
     "id": 300,
-    "pojem": "Systém dešťové vody pro splachování (recyklace)",
+    "pojem": "Využití dešťové vody",
     "kategorie": "Technologie",
-    "preklad": "Technologie zachytávající a upravující dešťovou nebo šedou vodu pro opětovné využití, například na splachování WC nebo zálivku zahrady.",
-    "realita": "Návratnost investice závisí na spotřebě vody v domácnosti a místní ceně vodného a stočného. Spočítejte si předpokládanou úsporu pro vaši konkrétní domácnost, než se pro systém rozhodnete."
+    "preklad": "Zachytávání dešťové vody ze střechy do nádrže na zálivku, splachování nebo praní. Šedá voda (odpad z umyvadla a sprchy) je jiný systém s jinou úpravou a hygienou.",
+    "realita": "Splachování dešťovkou chce filtr, čerpadlo a oddělené potrubí od pitné vody, jinak hrozí zpětný průsak do vodovodu. Návratnost závisí na srážkách a ceně vodného. Šedou vodu s dešťovkou neslučujte do jedné nádrže „protože je to taky voda“."
   },
   {
     "id": 301,
@@ -2105,5 +2105,705 @@ window.FACHMANKA_TERMS = [
     "kategorie": "Technologie",
     "preklad": "Kompletně předvyrobená koupelnová jednotka včetně obkladů a instalací, dovezená na stavbu a osazená jako celek, místo klasického postupného dokončování na místě.",
     "realita": "Zrychluje realizaci a omezuje počet řemesel na stavbě najednou, ale nabízí menší prostor pro individuální úpravy než klasické řešení. Zvažte ho hlavně u projektů s tlakem na rychlost dokončení."
+  },
+  {
+    "id": 302,
+    "pojem": "Šlic",
+    "kategorie": "Dokončovačky",
+    "preklad": "Drážka vysekaná nebo vyfrézovaná ve zdi, stropu nebo podlaze, do které se schovají trubky, kabely nebo chráničky. Řemeslník říká šlicovat, když ty drážky seká.",
+    "realita": "Šlic v nosné zdi nebo ve stropě může oslabit konstrukci, když je moc hluboký, souběžný s výztuží nebo jde vodorovně přes celou zeď. Zeptejte se, kudy přesně povede, a u nosných konstrukcí to nechte odsouhlasit statikovi nebo TDI, ne jen elektrikáři na koleni."
+  },
+  {
+    "id": 303,
+    "pojem": "Špric",
+    "kategorie": "Dokončovačky",
+    "preklad": "První, hrubě nahozená vrstva malty na zdivo – nástřik, který drží jádrovou omítku. Dělá se naběračkou nebo strojem, povrch má zůstat drsný.",
+    "realita": "Bez špricu jádro na hladké cihle nebo betonu hůř chytne a po čase se odloupne. Má být řídký, pokrýt zeď šupinkami, ne rovnou hladkou vrstvou. Když firma „špric přeskočí a rovnou natáhne jádro“, ptejte se proč – u některých systémových omítek to jde, u klasiky ne."
+  },
+  {
+    "id": 304,
+    "pojem": "Perlinka",
+    "kategorie": "Materiál",
+    "preklad": "Sklovláknitá mřížka, která se vtlačuje do stěrky na zateplení nebo do omítky, aby nepraskala. Správně armovací tkanina.",
+    "realita": "Perlinka musí být v horní třetině stěrky, s přesahem pruhů aspoň 10 cm, v rozích oken s diagonálními záplatami. Položená na polystyren a jen přetřená nestačí. Požadujte stejnou perlinku, jakou má v ETA zateplovací systém – hobby balení z marketu mívá jinou gramáž."
+  },
+  {
+    "id": 305,
+    "pojem": "Penetrák",
+    "kategorie": "Materiál",
+    "preklad": "Hantýrka pro penetraci: nátěr, který sjednotí savost podkladu před omítkou, lepidlem, hydroizolací nebo malbou.",
+    "realita": "Vyhnout se penetráku „protože zeď je suchá“ je klasická zkratka. Savý ytong, sádrokarton i starý beton berou vodu z malty jinak a pak to flekatí nebo pustí obklad. Ptejte se na typ (akrylát, silikát, adhezní můstek) podle podkladu, ne na univerzální ředidlo z konve."
+  },
+  {
+    "id": 306,
+    "pojem": "Flexa",
+    "kategorie": "Materiál",
+    "preklad": "Úhlová bruska. Na stavbě jí řežou kov, dlažbu, beton i „jen kousek zárubně“. Není to název materiálu, ale uslyšíte ho pořád.",
+    "realita": "Řezání dlažby flexou na sucho v bytě znamená prach v celém patře a často uražené glazury. Na obklady patří řezačka nebo mokrá pila, flexa jen na dořezy, které jinak nejdou. U nosné výztuže a krovu se ptejte, jestli se řeže tam, kde to projekt dovolí."
+  },
+  {
+    "id": 307,
+    "pojem": "Kačírek",
+    "kategorie": "Materiál",
+    "preklad": "Prané říční kamenivo, obvykle 8–16 nebo 16–32 mm. Používá se na obsyp drenáže, terasy, vsakování a kolem nopové fólie.",
+    "realita": "Do drenáže patří praný kačírek, ne lomový výkop s hlínou – jinak se hadice zalepí. Frakci a tloušťku obsypu si nechte zapsat. „Nějaký kačírek z cesty“ pod terasu nebo k drenáži nestačí."
+  },
+  {
+    "id": 308,
+    "pojem": "Roxor",
+    "kategorie": "Materiál",
+    "preklad": "Žebírková betonářská ocel, pruty výztuže. Říká se i roxory, armatura, železa.",
+    "realita": "Nestačí „dáme tam roxory“. Záleží na průměru, rozteči, kotevní délce a krytí betonem. Chtějte výkres výztuže a kontrolu před zalitím – po betonáži už pruty nezkontrolujete. Rezivý volně ložený roxor z dvora nepatří do věnce."
+  },
+  {
+    "id": 309,
+    "pojem": "Kari síť",
+    "kategorie": "Materiál",
+    "preklad": "Svařovaná ocelová síť do desek, mazanin a cest. Kari je zažitá značka, obecně svařovaná síť KARI / KARI síť.",
+    "realita": "Síť musí ležet v horní nebo spodní třetině desky podle výpočtu, na distančkách, ne na hydroizolaci „aby se nešlapalo do bláta“. Přesahy sítí se vážou, ne jen pokládají na sraz. U podlahovky síť nesmí protrhnout trubky."
+  },
+  {
+    "id": 310,
+    "pojem": "Talířovky",
+    "kategorie": "Materiál",
+    "preklad": "Talířové hmoždinky na kotvení polystyrenu nebo vaty k fasádě. Hlavička roznese tah, trn drží ve zdivu.",
+    "realita": "Počet a schéma kotvení určuje projekt a vítr, ne „jedna na desku“. Špatně zapuštěná talířovka dělá fleky na fasádě, příliš vyčnívající trhá stěrku. Zeptejte se na kotevní hloubku podle typu zdiva a na to, jestli jdou šroubovací, nebo zatloukací."
+  },
+  {
+    "id": 311,
+    "pojem": "Šalování",
+    "kategorie": "Hrubá stavba",
+    "preklad": "Sestavení bednění, do kterého se lije beton. Šalunk, šalovačka, debnění – totéž řemeslo.",
+    "realita": "Křivé šalování = křivý beton. Před litím zkontrolujte svislost, rozměry, vyztužení bednění a těsnost spár. Výronky a „břichatý“ věnec se pak pracně rovnají. Fotky výztuže a bednění před betonáží ušetří hádku, až to zatvrdne."
+  },
+  {
+    "id": 312,
+    "pojem": "Armatura",
+    "kategorie": "Hrubá stavba",
+    "preklad": "Výztuž betonu jako celek: pruty, sítě, třmínky, dráty. Armovat znamená vázat železa podle výkresu.",
+    "realita": "Armatura bez krytí (moc u šalunku) rezaví a odprýskává beton. Moc uvnitř zase nepřenáší, co má. Mezi pruty a bedněním patří distančky, ne kameny z výkopu. Před litím si nechte ukázat kotevní délky u spojů."
+  },
+  {
+    "id": 313,
+    "pojem": "Třmínky",
+    "kategorie": "Hrubá stavba",
+    "preklad": "Uzavřené nebo otevřené spony z betonářské oceli, které drží podélné pruty ve sloupu, trámu nebo věnci a přenášejí smyk.",
+    "realita": "Rozteč třmínků u podpor má být hustší než uprostřed rozponu – „dáme to na oko po třiceti“ nestačí. Ohnutí musí odpovídat průměru prutu, ne kleštím odhadem. Chybějící třmínek ve sloupu je statika, ne kosmetika."
+  },
+  {
+    "id": 314,
+    "pojem": "Distančky",
+    "kategorie": "Materiál",
+    "preklad": "Plastové nebo betonové podložky, které drží výztuž v předepsané vzdálenosti od bednění. Říká se i distanční podložky, patky pod kari.",
+    "realita": "Bez nich síť leží na zemi nebo na izolaci a deska je vyztužená tam, kde nemá. Počet distanček má síť unést při chůzi betonářů. Cihly a úlomky betonu jako náhrada dělají tepelné mosty a díry v krytí."
+  },
+  {
+    "id": 315,
+    "pojem": "Vibrátor (jehla)",
+    "kategorie": "Technologie",
+    "preklad": "Ponorný vibrátor, kterým se z čerstvého betonu vytlačí vzduch. Řemeslníci říkají „projet jehlou“, „zavibrovat“.",
+    "realita": "Bez vibrace zůstanou kaverny u výztuže a bednění, hlavně ve věnci a sloupech. Přehnané vibrování zase oddělí kamenivo od cementu. Ptejte se, kdo beton hutní a jak dlouho smí jehla zůstat na místě – u samozhutnitelného betonu se naopak nejehluje."
+  },
+  {
+    "id": 316,
+    "pojem": "Bádie",
+    "kategorie": "Hrubá stavba",
+    "preklad": "Okrouhlá nádoba na jeřáb nebo výtah, ve které se tahá beton, malta nebo suť. I „báďa“.",
+    "realita": "Bádie nad hlavou je riziko – pod dráhou jeřábu se nechodí. U malých staveb se beton často tahá kolečkem a spodek věnce se špatně vyplní. Dohodněte způsob dopravy betonu nahoru předem, ať se neřeší ředěním malty, „aby to teklo“."
+  },
+  {
+    "id": 317,
+    "pojem": "Žába",
+    "kategorie": "Hrubá stavba",
+    "preklad": "Vibrační pěch na hutnění zásypů, výkopů a podsypů. Někdy i malá hutnicí deska.",
+    "realita": "Nezhutněný zásyp kolem pasů a pod podlahou se později sedá: praskliny v dlažbě, spád od domu pryč, dveře, co dřou. Požadujte hutnění po vrstvách, ne jednu haldu „až po okno“. Kolem hydroizolace a trubek žába nepatří – tam se hutní opatrně."
+  },
+  {
+    "id": 318,
+    "pojem": "Kontralatě",
+    "kategorie": "Hrubá stavba",
+    "preklad": "Latě souběžně s krokvemi, které nad pojistnou fólií vytvoří odvětrávanou mezeru. Na nich teprve leží laťování pod krytinu.",
+    "realita": "Bez kontralatí fólie přilehne k latím a střecha nevětrá – v zimě to kondenzuje do vaty. Výška kontralatě má odpovídat délce krokve a typu krytiny. Hřebík skrz fólii bez těsnicí pásky je díra na zatékání."
+  },
+  {
+    "id": 319,
+    "pojem": "Podbití",
+    "kategorie": "Dokončovačky",
+    "preklad": "Obložení přesahu střechy zespodu – palubky, desky, omítka. Uzavírá krov od pohledu z terénu.",
+    "realita": "Podbití nesmí ucpat větrání krovu. Mřížky a mezery patří k okapní hraně i k hřebeni. Plastové podbití bez odvětrání a palubky nabité natesno na fólii dělají z podhledu vanu na vodu. Nechte si ukázat, kudy vzduch do střechy vchází a vychází."
+  },
+  {
+    "id": 320,
+    "pojem": "Hambálek",
+    "kategorie": "Hrubá stavba",
+    "preklad": "Vodorovný trám, který rozepírá protější krokve zhruba v polovině výšky krovu. Typický prvek hambalkového krovu.",
+    "realita": "Hambálek drží krov, aby se krokve nerozjely. Vyřezat ho kvůli světlé výšce podkroví bez statika je častá chyba při vestavbě. Náhrada ocelovým táhlem nebo kleštinou musí být spočítaná, ne „dáme tam jekl“."
+  },
+  {
+    "id": 321,
+    "pojem": "Kleština",
+    "kategorie": "Hrubá stavba",
+    "preklad": "Dvojice prvků, které svírají krokve nebo vaznici z obou stran a sešroubují se k sobě. Táhne a svazuje krov.",
+    "realita": "Jedna fošna z jedné strany není kleština. Šrouby mají jít skrz, s podložkami, v předepsané rozteči. Uvolněná kleština poznáte podle rozestouplých krokví a prasklin ve štítu – řešte hned, ne malbou."
+  },
+  {
+    "id": 322,
+    "pojem": "Námětek",
+    "kategorie": "Hrubá stavba",
+    "preklad": "Krátká krokvička, která vysazuje přesah střechy před obvodovou zeď, když hlavní krokev končí na pozednici.",
+    "realita": "Námětky nesou okapní hranu a podbití. Poddimenzované nebo narychlo přibité prkno se časem zkroutí a okap začne od domu. Kotvení k pozednici a krokevnímu přesahu patří do tesařského výkresu."
+  },
+  {
+    "id": 323,
+    "pojem": "Osedlání",
+    "kategorie": "Hrubá stavba",
+    "preklad": "Výřez v krokvi, kterým krokev sedí na pozednici nebo vaznici. Spoj, ne jen položení na ostrou hranu.",
+    "realita": "Moc hluboké osedlání krokev oslabí, mělké klouže a trhá pozednici. Hloubka a tvar mají být podle tesařské zvyklosti a výpočtu. Přibití šikmými hřebíky bez osedlání u novostavby není řemeslo."
+  },
+  {
+    "id": 324,
+    "pojem": "Věncovka",
+    "kategorie": "Materiál",
+    "preklad": "U-tvarovka z keramiky nebo pórobetonu, která tvoří ztracené bednění ztužujícího věnce. Do žlábku se vloží výztuž a zalije betonem.",
+    "realita": "Věncovka není výztuž – je to forma. Uvnitř musí být třmínky, podélné pruty a beton předepsané třídy. Suché poskládání „jako další řada cihel“ bez armatury věnec neudělá. Kontrolujte, že beton vyplnil celý žlab, ne jen vršek."
+  },
+  {
+    "id": 325,
+    "pojem": "Nopovka",
+    "kategorie": "Materiál",
+    "preklad": "Nopová fólie: plastová deska s nopy, která odvětrává a chrání hydroizolaci suterénu nebo terénní stěny. Někdy i jako drenážní vrstva.",
+    "realita": "Nopovka není hydroizolace. Patří na hotový pás nebo stěrku, nopy obvykle k zemině, nahoře s ukončovací lištou. Přibitá jen tak, že protrhne asfaltový pás, hydroizolaci zničí. Obsyp má být kačírek, ne ostrohranný recyklát."
+  },
+  {
+    "id": 326,
+    "pojem": "IPA",
+    "kategorie": "Materiál",
+    "preklad": "Zažitý název asfaltových izolačních pásů (původně značka). Dnes se tím často myslí jakýkoli natavitelný pás na střechu nebo základ.",
+    "realita": "IPA z osmdesátek a dnešní modifikovaný pás SBS/APP jsou jiná liga. Ptejte se na tloušťku, nosnou vložku (sklo, polyester) a jestli je pás na natavení, nebo samolepicí. Dvouvrstvý systém na střeše nejde nahradit jednou vrstvou „silnější IPy“."
+  },
+  {
+    "id": 327,
+    "pojem": "Natavování",
+    "kategorie": "Technologie",
+    "preklad": "Lepení asfaltových pásů hořákem: spodní asfalt se roztaví a pás se přitlačí. Říká se i hořákovat, opalovat pásy.",
+    "realita": "Nedostatečně natavený spoj po čase pustí vodu, přepálený pás zkřehne. Kontrolují se výtoky asfaltu ze spoje a přesahy. Na hořlavém bednění a u dřevostavby je to požární riziko – ptejte se na samolepicí systém nebo studené lepení."
+  },
+  {
+    "id": 328,
+    "pojem": "Mirelon",
+    "kategorie": "Materiál",
+    "preklad": "Pěnová podložka pod plovoucí podlahu (PE pěna). Mirelon je značka, která zlidověla.",
+    "realita": "Tenký mirelon 2 mm neřeší nerovný potěr ani kročej v paneláku. Výrobce podlahy předepisuje tloušťku, parozábranu a maximální nerovnost. Dvojitý mirelon „pro jistotu“ podlaha často nesmí – pruží a lámou se zámky."
+  },
+  {
+    "id": 329,
+    "pojem": "Kompriband",
+    "kategorie": "Materiál",
+    "preklad": "Předstlačená pěnová páska, která po osazení okna nateče a těsní spáru proti dešti. Kompri, kompripás.",
+    "realita": "Kompriband je vnější stupeň připojovací spáry, ne náhrada za pěnu ani za parotěsnou pásku uvnitř. Musí mít správnou šířku na danou spáru – moc úzký nevytěsní, moc tlustý okno z otvoru vytlačí. RAL montáž bez kompribandu u nás často končí mokrou ostěnou."
+  },
+  {
+    "id": 330,
+    "pojem": "APU lišta",
+    "kategorie": "Materiál",
+    "preklad": "Začišťovací lišta s tkaninou na napojení omítky nebo stěrky k rámu okna. Po omítnutí se odlomí odlamovací pásek.",
+    "realita": "Bez APU lišty omítka k oknu praská a do spáry teče. Musí sedět na rámu, ne na fólii, a perlinka z lišty se vrací do stěrky. Levná lišta bez tkaniny je jen plastový profil a práci neudělá."
+  },
+  {
+    "id": 331,
+    "pojem": "Špaleta",
+    "kategorie": "Dokončovačky",
+    "preklad": "Ostění okna nebo dveří – šikmá nebo rovná plocha zdiva kolem rámu uvnitř i venku. Špaletovat znamená ostění začišťovat.",
+    "realita": "Křivá špaleta kazí okno víc než samotný rám. U zateplení se ostění izoluje tenčím XPS, jinak tu máte tepelný most a plíseň v koutě. Zaměření žaluzií a parapetu se odvíjí od hotové špalety, ne od hrubé díry."
+  },
+  {
+    "id": 332,
+    "pojem": "Nadpraží",
+    "kategorie": "Hrubá stavba",
+    "preklad": "Pás zdiva nebo konstrukce nad okenním či dveřním otvorem, nesený překladem. Laikovi „to nad oknem“.",
+    "realita": "Prasklina v nadpraží často hlásí špatný překlad, sedání nebo vynechanou nadezdívku. U zateplení je nadpraží náchylné na tepelný most. Neřešte to jen tmelem – hledejte příčinu v překladu a uložení."
+  },
+  {
+    "id": 333,
+    "pojem": "Stoupačka",
+    "kategorie": "Technologie",
+    "preklad": "Svislý rozvod vody, kanalizace nebo topení mezi patry. V paneláku „stupačky“ v jádru.",
+    "realita": "Výměna stoupaček je zásah do společných rozvodů – v bytě si je neřežte bez SVJ a projektu. Odvětrání stoupačky musí jít nad střechu, jinak to v záchodech buble. Hluk ze stoupačky řeší obal a předsádka, ne silnější splachování."
+  },
+  {
+    "id": 334,
+    "pojem": "Ležatá",
+    "kategorie": "Technologie",
+    "preklad": "Ležatá kanalizace: vodorovné potrubí v zemi nebo pod podlahou, které svádí odpad ze stoupaček k přípojce.",
+    "realita": "Spád ležaté má být stálý, bez „kopců“, s čisticími kusy. Zabetonovaná ležatá bez revize je časovaná ucpávka. Průměr a materiál (KG v zemi, HT v domě) se nemíchají odhadem. Před zakrytím chtějte fotky a zkoušku vodotěsnosti."
+  },
+  {
+    "id": 335,
+    "pojem": "HT / KG",
+    "kategorie": "Materiál",
+    "preklad": "Dva typy kanalizačních trubek. HT (obvykle šedá) je pro vnitřek domu, KG (oranžová) do země. Nejsou zaměnitelné.",
+    "realita": "KG v bytě špatně snáší teplotu a hluk, HT v zemi nepřežije obsyp a mráz. Spoje musí být v hrdle s těsněním, ne oblepené izolačkou. Ptejte se na materiál podle místa uložení, ne na „oranžovou, tu máme“."
+  },
+  {
+    "id": 336,
+    "pojem": "Proudovka",
+    "kategorie": "Technologie",
+    "preklad": "Proudový chránič (Fi, chránič). Vypne okruh, když proud uniká mimo vodič – třeba do člověka nebo do vlhké zdi.",
+    "realita": "Proudovka v koupelně a venku není volitelný extra. Zásuvky na jedné proudovce padají všechny najednou – proto se dělí okruhy. Pravidelně ji zkoušejte tlačítkem T. „Bliká nám proudovka, tak jsme ji vyřadili“ je nebezpečná nouzovka, ne řešení."
+  },
+  {
+    "id": 337,
+    "pojem": "Zelený sádrokarton",
+    "kategorie": "Materiál",
+    "preklad": "Impregnovaná SDK deska do vlhka (typ H2 / GKBI). Do koupelny a kuchyně, ne do sprchy jako jediná hydroizolace.",
+    "realita": "Zelená deska snáší vlhkost vzduchu, ne trvalý proud vody. Pod obklad v mokré zóně patří stěrková hydroizolace a správné spáry. Bílý SDK v koupelně zvadne. Červená/růžová deska je požární DF, ne impregnace – nepleťte barvy."
+  },
+  {
+    "id": 338,
+    "pojem": "CD / UD profily",
+    "kategorie": "Materiál",
+    "preklad": "Pozinkované profily suché výstavby. UD je obvodový U profil u zdi a stropu, CD je stropní C profil na závěsech. U příček se říká UW / CW.",
+    "realita": "Rozteč CD profilů určuje deska a zatížení podhledu (světla, rekuperace). Přímé závěsy a křížové spojky mají předepsanou délku a počet šroubů. Sádrokarton na dřevěných latích „jako kdysi“ se chová jinak – ptejte se na skladbu z podkladů Knauf/Rigips, ne na kutilský strop."
+  },
+  {
+    "id": 339,
+    "pojem": "Přímý závěs",
+    "kategorie": "Materiál",
+    "preklad": "Krátký ohnutý pásek, kterým se CD profil kotví ke stropu. Základní díl podhledu.",
+    "realita": "Dlouhý podhled na samých přímých závěsech se hůř rektifikuje a přenáší nerovnosti stropu. U většího snížení patří noniusové nebo drátěné závěsy. Kotvení do dutin panelu bez správné hmoždinky podhled sundá i s lustrem."
+  },
+  {
+    "id": 340,
+    "pojem": "Bandáž",
+    "kategorie": "Dokončovačky",
+    "preklad": "Výztužná páska ve spoji sádrokartonových desek, zapracovaná do tmelu. Papírová nebo sklovláknitá.",
+    "realita": "Bez bandáže spoje praskají, i když je tmelu hodně. Páska má být ve tmelu, ne nalepená na suchou desku a přetřená. U koutů a u napojení na zdivo je prasklina skoro jistá, když se bandáž vynechá „protože to nikdo neuvidí“."
+  },
+  {
+    "id": 341,
+    "pojem": "Křížky",
+    "kategorie": "Dokončovačky",
+    "preklad": "Plastové distanční křížky mezi obkladačkami, které drží šířku spáry. Po zatuhnutí lepidla se venkovní křížky vytahují.",
+    "realita": "Křížky zapomenuté ve spáře pod glazurou později kreslí fleky a lámají spárovací hmotu. Velkoformát se dnes často klade na spony a klínky (rektifikace), ne na křížky 2 mm z marketu. Šířka spáry má odpovídat dlažbě, ne zvyku obkladače."
+  },
+  {
+    "id": 342,
+    "pojem": "Gres",
+    "kategorie": "Materiál",
+    "preklad": "Slinutá dlažba s nízkou nasákavostí, často slovo „gres“ z italštiny. Hodí se ven i do sprchy, když má správný protiskluz.",
+    "realita": "Gres se řeže hůř než starý obklad a chce správné lepidlo a podklad. Rektifikovaný gres svádí k téměř bezespáré pokládce – bez dilatace praskne. Nasákavost a mrazuvzdornost čtěte z obalu, ne z názvu v letáku."
+  },
+  {
+    "id": 343,
+    "pojem": "Zubák",
+    "kategorie": "Dokončovačky",
+    "preklad": "Zubové hladítko na natažení lepidla pod obklad. Velikost zubu (např. 8 nebo 10 mm) určuje tloušťku lože.",
+    "realita": "Velkoformát se klade kombinovaně: lepidlo na stěnu i na destičku. Malý zub pod velkou dlažbou znamená dutiny a puklý obklad. Ptejte se, jaký zub a jaké lepidlo jde k formátu – „zubák co máme v kyblíku“ nestačí."
+  },
+  {
+    "id": 344,
+    "pojem": "Strojovka",
+    "kategorie": "Dokončovačky",
+    "preklad": "Strojní omítka stříkaná pumpou. Rychlejší než nahazování naběračkou, jiná směs než pytlovaná ruční omítka.",
+    "realita": "Strojovka chce stejnoměrný podklad, zakryté ostění a čas na zrání. Špatně seřízená konzistence steče nebo praská. Ruční doopravy u stropu a koutů poznáte, když parta spěchá. Technologická pauza před štukem platí i tady."
+  },
+  {
+    "id": 345,
+    "pojem": "Břízolit",
+    "kategorie": "Dokončovačky",
+    "preklad": "Škrábaná minerální fasádní omítka s kamínky, klasika českých domů. Obnovuje se přetřením nebo novým škrábáním, ne eticsem za každou cenu.",
+    "realita": "Pod břízolit nepatří nesoudržné nátěry a zateplení bez posouzení vlhkosti zdiva. Škrábání má jít do živé vrstvy. Zateplit břízolitový dům jde, ale starou omítku často musíte otlouct nebo sanovat – jinak spadne i s polystyrenem."
+  },
+  {
+    "id": 346,
+    "pojem": "Zakládací lišta",
+    "kategorie": "Materiál",
+    "preklad": "Hliníkový profil, na který se v soklu staví první řada zateplovacích desek. Zakládá rovinu ETICS.",
+    "realita": "Lišta musí být ve vodorovině, s okapnicí a dilatačními spoji. Pod ní patří soklový XPS nad terénem v předepsané výšce. Křivá zakládací lišta zkřiví celou fasádu. Nahrazení lišty „první řadou na maltu od oka“ se vymstí u okapu a teras."
+  },
+  {
+    "id": 347,
+    "pojem": "Armovací stěrka",
+    "kategorie": "Materiál",
+    "preklad": "Lepicí a stěrkovací tmel, do kterého se vtlačuje perlinka na zateplení. Není to finální omítka.",
+    "realita": "Tloušťka armovací vrstvy má být podle systému, obvykle kolem 3–5 mm s perlinkou uvnitř. Tenká „šmouha“ perlinku neunese. Stěrka z jiného systému, než je polystyren a omítka, ruší záruku. Nechte zaschnout, než půjde penetrace a omítka."
+  },
+  {
+    "id": 348,
+    "pojem": "Perimetr",
+    "kategorie": "Materiál",
+    "preklad": "XPS nebo speciální EPS k zateplení suterénu a soklu pod terénem. Snese vlhko a obsyp líp než fasádní bílý polystyren.",
+    "realita": "Fasádní EPS pod zem uhnije vlastnostmi, ne nutně hned očima. Perimetr se lepí a chrání nopovkou a obsypem. Nad terénem přechází na soklový XPS. Míchejte typy desek jen podle skladby, ne podle toho, co zbylo z fasády."
+  },
+  {
+    "id": 349,
+    "pojem": "Černá vana",
+    "kategorie": "Hrubá stavba",
+    "preklad": "Suterén utěsněný asfaltovými pásy nebo stěrkami zvenku – „černá“ izolace. Protějšek bílé vany z vodostavebního betonu.",
+    "realita": "Černá vana stojí a padá na spojích, prostupech a ochraně před zasypáním. Pásy se kontrolují před obsypem. Kombinace s bílou vanou musí navrhnout projektant, ne parta „pro jistotu obojí“. Po zasypání už netěsnost hledáte v obýváku."
+  },
+  {
+    "id": 350,
+    "pojem": "Požární manžeta",
+    "kategorie": "Technologie",
+    "preklad": "Objímka na plastové potrubí, která při požáru nabobtná a ucpe prostup stropem nebo stěnou. Patří k požárním ucpávkám.",
+    "realita": "Kde projekt píše EI, pěna z hobby marketu nestačí. Manžeta má správný průměr, stranu montáže a atest. Po zakrytí SDK ji nikdo nevidí – proto fotky před uzavřením šachty. Chybějící manžeta ohrozí celý dům, ne jen „tu jednu trubku“."
+  },
+  {
+    "id": 351,
+    "pojem": "HUP",
+    "kategorie": "Technologie",
+    "preklad": "Hlavní uzávěr plynu. Místo, kde se dům dá odpojit od přípojky. Bývá ve skříni na hranici pozemku nebo v nisách domu.",
+    "realita": "K HUP musí zůstat přístup, i po zateplení a nových zámcích. Zásah do plynu bez oprávnění a revize je nezákonný. Při rekonstrukci kuchyně si nechte ukázat, kde HUP je, a vyzkoušejte, že jde zavřít – než začne bourání."
+  },
+  {
+    "id": 352,
+    "pojem": "Čep a dlab",
+    "kategorie": "Hrubá stavba",
+    "preklad": "Základní tesařský spoj: čep (výstupek) zapadne do dlabu (otvoru) v druhém trámu. Drží krov a rámovou konstrukci bez hromady vrutů.",
+    "realita": "Moc volný dlab klape a časem vyvleče hřebík, moc těsný trám roztrhne. Spoj má sedět na dřevo na dřevo, ne na kliku montážní pěny. U viditelných krovů chtějte čepy dotažené klínem nebo svorníkem, ne jen „přibité zboku“."
+  },
+  {
+    "id": 353,
+    "pojem": "Rybinový spoj",
+    "kategorie": "Hrubá stavba",
+    "preklad": "Spoj ve tvaru rybího ocasu, který se při tahu zacpe a nevysmekl. Používá se u prahů, vazných trámů a kvalitních tesařských konstrukcí.",
+    "realita": "Rybinu nejde pořádně udělat flexou a pěnou. Když ji tesař slíbí a na stavbě jsou jen čelní vruty do čela trámu, je to jiný spoj s jinou únosností. U roubenek a viditelných stropů na tom poznáte řemeslo."
+  },
+  {
+    "id": 354,
+    "pojem": "Vazný trám",
+    "kategorie": "Hrubá stavba",
+    "preklad": "Vodorovný trám, který svazuje pozednice nebo sloupy a přenáší tah od krokví, aby se zdi nerozjely. Spodní „táhlo“ krovu.",
+    "realita": "U vestavby podkroví se vazný trám často řeže kvůli průchodu – tím se krov změní na dvě samostatné krokve tlačící do zdí. Náhrada ocelovým táhlem musí navrhnout statik. Trámový strop pod krovy vazný trám nenahrazuje automaticky."
+  },
+  {
+    "id": 355,
+    "pojem": "Sloupková stolice",
+    "kategorie": "Hrubá stavba",
+    "preklad": "Svislé sloupky s pásky a prahy, které podpírají vaznici. Typická „stolice“ u vaznicové soustavy krovu.",
+    "realita": "Stolice musí stát na únosné zdi nebo průvlaku, ne na příčce. Vynechané pásky (zavětrování) stolici vichr složí. Při otevření dispozice podkroví se stolice často stane překážkou – nebourat ji bez výpočtu náhrady."
+  },
+  {
+    "id": 356,
+    "pojem": "Vzpěra (pásek)",
+    "kategorie": "Hrubá stavba",
+    "preklad": "Šikmý prvek mezi sloupkem a vodorovným trámem, který ztužuje krov proti vodorovnému posunu. Tesaři říkají pásky, vzpěry, zavětrování.",
+    "realita": "Bez pásků je stolice vratká i když sloupek vypadá tlustě. Pásek má jít do čepu nebo na ocelový třmen, ne na dva vruty do čela. U velkých vikýřů a uvolněných krovů je to první věc, která chybí."
+  },
+  {
+    "id": 357,
+    "pojem": "Příhradový vazník",
+    "kategorie": "Hrubá stavba",
+    "preklad": "Předvyrobený střešní dílec z prvků spojených styčníkovými deskami. Na stavbě se klade jako celek, místo klasického vázaného krovu.",
+    "realita": "Vazník nesmíte řezat kvůli půdním schodům, rekuperaci nebo vikýři – rozloží se. Prostupy a úložná půda musí být v projektu. Podvazníkový prostor bývá nízký; izolace a rozvody se plánují předem, ne sekerou na vazníku."
+  },
+  {
+    "id": 358,
+    "pojem": "Styčníková deska",
+    "kategorie": "Materiál",
+    "preklad": "Ocelový plech s hroty, který se nalisuje do dřeva a spojuje pruty vazníku. Říká se i gang-nail, destička.",
+    "realita": "Ohnutá nebo uvolněná destička je závada celého vazníku, ne kosmetika. Nesmí se převrtávat, opalovat ani obkládat vlhkou vatou bez odvětrání. Poškozený styčník řeší výrobce vazníků, ne tesař dvěma vruty zboku."
+  },
+  {
+    "id": 359,
+    "pojem": "Záklop",
+    "kategorie": "Hrubá stavba",
+    "preklad": "Záklopení krovu nebo trámového stropu prkny, palubkami nebo deskami. Tvoří plochu pod izolaci, podlahu půdy nebo podhled.",
+    "realita": "Řídký záklop s mezerami neunese vatu ani chůzi. Příliš těsný záklop nad parozábranou bez větrání zadrží vlhkost. Ptejte se, jestli je záklop záklopem k pochůznosti, nebo jen záklopem pod fólii – únosnost je jiná."
+  },
+  {
+    "id": 360,
+    "pojem": "Nárožní krokev",
+    "kategorie": "Hrubá stavba",
+    "preklad": "Šikmá krokev v nároží valbové střechy, delší a tlustší než běžné krokve. Sbíhá se na ni laťování z obou rovin.",
+    "realita": "Nároží je místo, kde střecha nejvíc tahá a zatéká po špatném oplechování. Nárožní krokev poddimenzovaná „jako ostatní“ se prohne. Klempířské nároží a pojistná fólie tu chtějí větší péči než plocha tašek."
+  },
+  {
+    "id": 361,
+    "pojem": "Valba",
+    "kategorie": "Hrubá stavba",
+    "preklad": "Šikmá střešní rovina místo svislého štítu. Dům má skosené čelo střechy. Polovalba je zkrácená valba nad štítem.",
+    "realita": "Valba přidá tesařinu, klempířinu a detaily nároží. Ušetří štítovou zeď, ale zmenší podkroví. U vikýřů ve valbě přibývá úžlabí. Cena „jako sedlová“ bez započtení nároží a úžlabí nebývá pravda."
+  },
+  {
+    "id": 362,
+    "pojem": "Trámový strop",
+    "kategorie": "Hrubá stavba",
+    "preklad": "Strop z dřevěných stropnic (trámů) se záklopem a násypem nebo izolací. Běžný ve starších domech, dnes i jako pohledový.",
+    "realita": "Záklop a násyp (škvára, sutě) jsou těžké – nebourat je bez statika. Nové otvory, schodiště a koupelny na trámovém stropě chtějí výměny a výměnky. Kročej a požár se řeší skladbou, ne jen palubkami zespodu."
+  },
+  {
+    "id": 363,
+    "pojem": "Stropnice",
+    "kategorie": "Hrubá stavba",
+    "preklad": "Jednotlivý nosný trám trámového stropu. Říká se i stropní trám, fošna v osové vzdálenosti třeba 80–100 cm.",
+    "realita": "Rozteč a průřez stropnic musí unést podlahu, příčky a vanu. Výměna shnilého konce ve zdi (výměnek) je tesařina, ne pěna do kapsy. Záseky na trubky shora stropnici oslabí – rozvody veďte mezi trámy, ne skrz jejich střed."
+  },
+  {
+    "id": 364,
+    "pojem": "Trámcová botka",
+    "kategorie": "Materiál",
+    "preklad": "Ocelový třmen, do kterého se vloží trám a přišroubuje ke zdi, průvlaku nebo sloupu. Hřebíková nebo vrutová botka.",
+    "realita": "Botka musí mít správnou únosnost a kotevní sadu do betonu nebo dřeva. Čtyři vruty do omítky trám neudrží. Mezi dřevo a zdivo patří izolace proti vlhkosti, jinak konec trámu hnije v kapse."
+  },
+  {
+    "id": 365,
+    "pojem": "Kroužkové hřebíky",
+    "kategorie": "Materiál",
+    "preklad": "Hřebíky s drážkováním, které ve dřevě drží líp než hladké. Tesaři jimi sponkují latě, záklop i styčníky, kde destička není.",
+    "realita": "Hladké hřebíky z hobbymarketu ve střeše povolí při vysychání dřeva. Kroužkové a vruty do krovu mají předepsanou délku – krátký hřebík v kontralatí nedrží krytinu při větru. Nerez nebo pozink u vlhkých expozic, ne černý ocelový hřebík do podbití."
+  },
+  {
+    "id": 366,
+    "pojem": "Kampování",
+    "kategorie": "Hrubá stavba",
+    "preklad": "Tesařské sesazení dvou prvků do roviny nebo do úhlu seříznutím – „skampovat“ trámy, aby lícovaly. I sesazení na sraz s čistým čelem.",
+    "realita": "Křivé kampování poznáte na pohledovém krovu hned. Mezery se nemají zalévat pěnou a tmelem jako u SDK. U nosných spojů kampování nenahrazuje čep – je to úprava dosednutí, ne celý spoj."
+  },
+  {
+    "id": 367,
+    "pojem": "Hřebenáč",
+    "kategorie": "Materiál",
+    "preklad": "Krycí taška nebo tvarovka na hřebeni a nároží střechy. Pod ním má zůstat větrací průřez, ne malta natěsno.",
+    "realita": "Zazdít hřebenáče do malty „jako za babičky“ u dnešních skladeb často ucpe odvětrání krovu. Existují suché hřebenové systémy s mřížkou. Ptejte se, kudy vzduch z mezery pod krytinou ven vychází – hřebenáč je klíčové místo."
+  },
+  {
+    "id": 368,
+    "pojem": "Nadkrokevní izolace",
+    "kategorie": "Technologie",
+    "preklad": "Izolace kladená nad krokve (desky PIR, dřevovlákno), takže krov zůstane vidět z interiéru a neprostupuje tepelnými mosty krokví.",
+    "realita": "Chce souvislou parozábranu nebo parobrzdu pod deskami a přesné spoje. Mosty přes krokve zmizí, ale zvedne se výška střechy a detail u okapu. Míchat silnou vatu mezi krokve a tenké PIR nad nimi bez výpočtu je hazard s kondenzací."
+  },
+  {
+    "id": 369,
+    "pojem": "Alupex",
+    "kategorie": "Materiál",
+    "preklad": "Vícevrstvá trubka PEX-hliník-PEX na vodu a topení. Ohýbá se rukou, spojuje lisováním. Říká se i vícevrstvá, PEX-Al-PEX.",
+    "realita": "Alupex nesnáší zbytečné kličky a úzké ohyby bez pružiny. Lisovací tvarovky musí být stejné řady jako trubka – míchání značek pouští. Před zakrytím stěrkou patří tlaková zkouška a fotky tras. Na slunci a u kotle hlídejte teplotní odolnost."
+  },
+  {
+    "id": 370,
+    "pojem": "Lisování",
+    "kategorie": "Technologie",
+    "preklad": "Spoj trubky a tvarovky nalisováním čelistí. U Alupexu, nerezových a měděných systémů nahrazuje pájení a sváření.",
+    "realita": "Nalisovaný spoj nejde „dotáhnout klíčem“. Špatný profil čelistí nebo nedotočená lisovačka kape za obkladem. Požadujte, aby měl instalatér kalibrovanou lisovačku a po zkoušce nesundával obklady hned. Nestlačený spoj poznáte podle nesjetého plastového kroužku na fittingu."
+  },
+  {
+    "id": 371,
+    "pojem": "Rohový ventil",
+    "kategorie": "Technologie",
+    "preklad": "Kohout pod umyvadlem nebo toaletou, kterým se uzavře jen zařizovací předmět, ne celý byt. Šikmé sedlo je starší příbuzný.",
+    "realita": "Levný ventil po letech nepůjde zavřít, až poteče baterie. Před obkladem zkontrolujte, že vývody sedí na baterii. Filtr-sitko ve ventilu se má dát čistit. Při rekonstrukci vyměňte i staré vývody ve zdi, ne jen zlatou baterii na ocelovém šroubení z 80. let."
+  },
+  {
+    "id": 372,
+    "pojem": "Sifon",
+    "kategorie": "Technologie",
+    "preklad": "Zápachová uzávěrka pod umyvadlem, vanou nebo sprchou: ohyb s vodou, který nepouští pach z kanalizace do místnosti.",
+    "realita": "Suchý sifon u zřídka používaného odtoku začne zapáchat – pomůže zápachová klapka nebo občasné spláchnutí. Podomítkový sifon ve sprše musí zůstat revizní. Umyvadlový sifon „zazděný napevno“ bez dvířek je ucpávka bez oprav."
+  },
+  {
+    "id": 373,
+    "pojem": "Podlahová vpust",
+    "kategorie": "Technologie",
+    "preklad": "Odtok v podlaze koupelny, garáže nebo terasy, s mřížkou a zápachovou uzávěrkou. Dvorní vpust je venkovní příbuzný.",
+    "realita": "Vpust musí být nejnižší bod vyspádované podlahy, s hydroizolační manžetou do stěrky. Špatná výška zápachové uzávěrky a chybějící spád udělají louži u dveří. Do vpusti nepatří zbytky malty – zabetonovaný košík neopravíte bez sekání."
+  },
+  {
+    "id": 374,
+    "pojem": "Čisticí kus",
+    "kategorie": "Technologie",
+    "preklad": "Revizní tvarovka na kanalizaci s víkem, kudy se dá prostrčit pružina. Patří na ležatou, na patu stoupačky a před výstup z domu.",
+    "realita": "Zazdít čisticí kus obkladem „protože to nic moc není“ znamená při ucpání sekat obývací stěnu. Víko musí jít otevřít. Na zahradě patří čisticí kus do šachty, ne pod záhon bez poklopu."
+  },
+  {
+    "id": 375,
+    "pojem": "Pojistný ventil",
+    "kategorie": "Technologie",
+    "preklad": "Ventil na bojleru nebo kotli, který při překročení tlaku pustí vodu pryč. Chrání nádobu před roztržením.",
+    "realita": "Z ucpaného nebo zaslepeného pojistného ventilu „aby to nekapealo“ je nebezpečná bomba. Odkap patří do odtoku, ne do zdi. U bojleru patří k ventilu i expanzní nádoba – bez ní ventil kape pořád a není to „vadný bojler“."
+  },
+  {
+    "id": 376,
+    "pojem": "Redukční ventil",
+    "kategorie": "Technologie",
+    "preklad": "Snižuje tlak vody z řádu na tlak, který unesou baterie a hadice (často kolem 3–4 bar). Bývá za vodoměrem.",
+    "realita": "Vysoký tlak z obce trhá hadice pračky a těsnění. Chybějící redukce se tváří jako „špatné baterie“. Filtr před redukcí se musí čistit, jinak ventil nedrží. Nastavení ať udělá instalatér manometrem, ne odhadem."
+  },
+  {
+    "id": 377,
+    "pojem": "Rozdělovač",
+    "kategorie": "Technologie",
+    "preklad": "Hřeben, z kterého jdou jednotlivé okruhy podlahovky nebo radiátorů. Má průtokoměry, odvzdušnění a často směšování.",
+    "realita": "Rozdělovač patří do skříně s přístupem, ne za vanu bez dvířek. Každý okruh má mít správnou délku a průtok – „všechno otevřené naplno“ jednu smyčku přetopí a druhou nechá studenou. Po zakrytí podlahy se špatná délka smyčky špatně předělává."
+  },
+  {
+    "id": 378,
+    "pojem": "Tlaková zkouška",
+    "kategorie": "Technologie",
+    "preklad": "Ověření, že nový vodovod nebo topení drží tlak, než se zazdí a zalije potěrem. Zapisuje se do protokolu.",
+    "realita": "Zkouška na 10 minut „co voda z kohoutku“ nestačí. Má trvat předepsanou dobu, s manometrem, bez poklesu. Fotky otevřených spojů před obkladem jsou vaše pojištění. Když to kape až po malbě, platíte obkladače znovu vy."
+  },
+  {
+    "id": 379,
+    "pojem": "Kulový kohout",
+    "kategorie": "Technologie",
+    "preklad": "Uzávěr s koulí a dírou, který se zavírá čtvrtotočkou. Hlavní uzávěr vody v bytě, pod kotlem, na patě stoupačky.",
+    "realita": "Kohout musí jít dojít do konce – „skoro zavřeno“ protéká a sedne vápenem. Páka potřebuje místo na otočení vedle omítky. Plastové páčky z marketu praskají; u hlavního uzávěru chcete kov a přístup i po kuchyňské lince."
+  },
+  {
+    "id": 380,
+    "pojem": "Zápachová uzávěrka",
+    "kategorie": "Technologie",
+    "preklad": "Vodní sloupec v sifonu nebo vpusti, který odděluje kanalizační plyn od místnosti. Bez vody uzávěrka nefunguje.",
+    "realita": "Podlahové topení a rekuperace vysuší málo používané vpusti. Řešení je hlubší uzávěrka, zápachová klapka nebo občasná zálivka. Přepadená uzávěrka z špatného spádu ležaté naopak bublá pořád – to už je spád potrubí, ne vonný sprej."
+  },
+  {
+    "id": 381,
+    "pojem": "Podomítková baterie",
+    "kategorie": "Technologie",
+    "preklad": "Tělo sprchové nebo umyvadlové baterie zazděné ve zdi, venku zůstane jen páka a krycí deska. Chce přesný vývod a revizi.",
+    "realita": "Špatná hloubka těla = páka trčí nebo nejde nasadit deska. Přístup k tělu po obkladu skoro není, proto značka s náhradními díly a zkouška těsnosti před obkladem. Levná no-name baterie ve zdi je drahá, až poleze voda do SDK předstěny."
+  },
+  {
+    "id": 382,
+    "pojem": "Vodoměr",
+    "kategorie": "Technologie",
+    "preklad": "Měřidlo spotřeby vody, obvykle v šachtě na hranici pozemku nebo ve sklepě. Patří vodárnám, ne do kutilské výměny.",
+    "realita": "Před vodoměrem a za ním mají být uzávěry a uklidňovací délky. Zateplit šachtu, ať vodoměr v zimě neroztrhne. Svod od pojistného ventilu bojleru nepatří před vodoměr. Otvírání plomb je přestupek – únik za vodoměrem platíte vy."
+  },
+  {
+    "id": 383,
+    "pojem": "Přechodka",
+    "kategorie": "Materiál",
+    "preklad": "Tvarovka mezi dvěma materiály nebo průměry: PPR na závit, Alupex na měď, HT na litinu. Bez ní se míchají nespojitelné systémy.",
+    "realita": "Namotat teflon na nesedící závit a „zatlouct“ PPR do mědi je budoucí kapání. Na starou litinovou stoupačku patří správná manžeta, ne izolepa. Každá přechodka je místo poruchy – ať jich je co nejmíň a ať zůstanou přístupné."
+  },
+  {
+    "id": 384,
+    "pojem": "Systémová deska",
+    "kategorie": "Materiál",
+    "preklad": "Nopová nebo rýhovaná deska, do které se klipují trubky podlahového topení v předepsané rozteči.",
+    "realita": "Rozteč smyček není „jak se vejde“, ale výpočet místnosti. Prošlápnutá deska a utržené klipy dělají smyčky navrch, které v potěru křižují. Dilatace potěru nesmí přeříznout trubku – plánuje se před kladením, ne úhlovou bruskou do hotové mazaniny."
+  },
+  {
+    "id": 385,
+    "pojem": "Krabice KU",
+    "kategorie": "Materiál",
+    "preklad": "Instalační krabice do zdiva pod vypínač nebo zásuvku. KU je klasika do cihly, do SDK patří krabice s tlapkami.",
+    "realita": "Mělká krabice = přístroj trčí, hluboká bez podložek padá do zdi. Více kabelů potřebuje větší krabici nebo krabici přístrojovou, ne osm CYKY v jedné KU. Sádrokartonová krabice ve zdivu nedrží. Výška vypínačů ať je v celém bytě stejná."
+  },
+  {
+    "id": 386,
+    "pojem": "CYSY",
+    "kategorie": "Materiál",
+    "preklad": "Ohebný slaněný kabel k pohyblivým přívodům – svítidla, spotřebiče, připojení v rozvaděči. CYKY je tuhý kabel do zdi.",
+    "realita": "CYSY do omítky jako náhrada CYKY nepatří. Naopak tuhé CYKY do lustra a za nábytek praská. Průřez musí sedět k jističi. „Tenká šňůra na sporák“ je požár, ne úspora."
+  },
+  {
+    "id": 387,
+    "pojem": "HOP",
+    "kategorie": "Technologie",
+    "preklad": "Hlavní ochranná přípojnice: svorka v rozvaděči, kde se spojují vodiče PE, uzemnění, pospojování plynu, vody a van.",
+    "realita": "Bez HOP a pospojování v koupelně může na vaně nebo trubce zůstat napětí při poruše. Žlutozelené vodiče na náhodné šrouby ve zdi nestačí. Revize to kontroluje – nenechte elektrikáře „to uzemnit o topení“ bez přípojnice."
+  },
+  {
+    "id": 388,
+    "pojem": "Pospojování",
+    "kategorie": "Technologie",
+    "preklad": "Propojení vodivých částí v koupelně a kotelně na PE: vana, sprchový žlab, nerezové trubky, kovová zárubeň u sprchy.",
+    "realita": "Plastové trubky pospojování nenesou – svorka musí sedět na kovu. Po výměně vany se pospojování často zapomene. Není to „drát proti blesku“, ale ochrana člověka ve vaně. Chtějte vidět žlutozelený vodič na vaně před obkladem."
+  },
+  {
+    "id": 389,
+    "pojem": "Svodič přepětí (SPD)",
+    "kategorie": "Technologie",
+    "preklad": "Ochrana v rozvaděči, která svede špičku napětí z bouřky nebo sítě do země. Říká se přepěťovka, svodič, SPD.",
+    "realita": "Jistič přepětí nechytí. U FVE, tepelného čerpadla a drahé elektroniky je svodič typ 1+2 na patě objektu standard, ne extra. Po zásahu bouřkou se modul vyměňuje – kontrolujte okénko. Bez uzemnění svodič nemá kam svést."
+  },
+  {
+    "id": 390,
+    "pojem": "Hromosvod",
+    "kategorie": "Technologie",
+    "preklad": "Jímací soustava na střeše, svody po fasádě a uzemnění. Má svést blesk mimo dům. Oficiálně LPS.",
+    "realita": "Hromosvod bez revize a bez spojení s uzemněním domu je dekorace. Klempířské oplechování není automaticky jímací tyč. FVE na střeše mění návrh – panely nesmí zůstat mimo soustavu. Revize po bouřce a po výměně krytiny."
+  },
+  {
+    "id": 391,
+    "pojem": "Zemnič",
+    "kategorie": "Technologie",
+    "preklad": "Páskový nebo tyčový vodič v zemi, který tvoří uzemnění domu. Základový zemnič je pásek v betonu základů.",
+    "realita": "Zemnič se ukládá při základech – dodatečně se vrtá draze a hůř. Spoje v zemi patří svorkami, ne izolepou. Odpor uzemnění se měří, neslibuje. Přerušený pásek při výkopu přípojky nechte spojit, než se zasype."
+  },
+  {
+    "id": 392,
+    "pojem": "Elektroměrový rozvaděč",
+    "kategorie": "Technologie",
+    "preklad": "Skříň s elektroměrem a hlavním jističem, obvykle na hranici pozemku. Patří distributorovi, vaše „domovní“ jističe jsou až za ním.",
+    "realita": "Hlavní jistič v elektroměru určuje rezervovaný příkon a sazbu – jeho hodnota se nemění bez žádosti na ČEZ/EG.D/PRE. Zateplení a nové ploty nesmí skříň zamknout. HDO přijímač bývá tady, ne v koupelně."
+  },
+  {
+    "id": 393,
+    "pojem": "Wago",
+    "kategorie": "Materiál",
+    "preklad": "Pružinová svorka na spojení vodičů v krabici. Zlidovělá značka, obecně bezšroubová svorka.",
+    "realita": "Wago má řady na plný a slaněný vodič – míchání bez koncovky je slabý spoj. Lustrsvorky z 70. let a izolepa nejsou rovnocenné. Přeplněná krabice plná svorek se ohřívá. Počet vodičů na svorku je na obalu, ne „ještě jeden se vejde“."
+  },
+  {
+    "id": 394,
+    "pojem": "Instalační zóny",
+    "kategorie": "Technologie",
+    "preklad": "Pravidla, kudy ve zdi smí vést kabel: svisle a vodorovně od vypínačů, zásuvek a rohů, v předepsaných pruzích. Mimo zóny se vrtá naslepo do kabelu.",
+    "realita": "Vodorovný kabel v půlce stěny „protože to bylo kratší“ je past na hmoždinku od poličky. Chránička v zóně usnadní výměnu. Plánek tras fotografujte před omítkou. V koupelně platí ještě zóny vzdálenosti od vany a sprchy."
+  },
+  {
+    "id": 395,
+    "pojem": "Schodišťový vypínač",
+    "kategorie": "Technologie",
+    "preklad": "Zapojení, kdy světlo ovládáte ze dvou míst (střídavý, schodišťový). Ze tří a víc míst je křížový vypínač uprostřed.",
+    "realita": "Bez křížového vypínače „třetí vypínač na chodbě“ nefunguje, i když vypadá stejně. Přívod má jít do krabice správně – jinak svítí jen jedna půlka. Chytré relé to umí nahradit, ale klasika chce správný počet vodičů v chráničce před omítkou."
+  },
+  {
+    "id": 396,
+    "pojem": "Charakteristika jističe (B/C)",
+    "kategorie": "Technologie",
+    "preklad": "Jak rychle jistič vypne při proudovém nárazu. Typ B je citlivější (zásuvky, světla), typ C snese rozběh čerpadel, nářadí, klimatizace.",
+    "realita": "Jistič C na osvětlení „aby nevypínal“ hůř chrání kabely. Jistič B na čerpadlo nebo FVE měnič naopak padá při startu. Hodnota v ampérech musí sedět k průřezu kabelu – 16 A na 1,5 mm² je špatně. Ptejte se na B/C, ne jen na „šestnáctku“."
+  },
+  {
+    "id": 397,
+    "pojem": "Průřez vodiče",
+    "kategorie": "Materiál",
+    "preklad": "Tloušťka mědi v mm². Běžně 1,5 světla, 2,5 zásuvky, 4–6 sporák a přívody, víc k tepelnému čerpadlu a FVE.",
+    "realita": "Tenký kabel na dlouhé trase se hřeje a spouští jistič. Zásuvky na 1,5 mm² jsou častá úspora a požární riziko. Průřez patří do projektu elektro, ne do odhadu „včera jsme dávali 2,5 všude“. U hliníku ve starých bytech platí jiná pravidla – nespojovat na kličku s mědí."
+  },
+  {
+    "id": 398,
+    "pojem": "Kopoflex",
+    "kategorie": "Materiál",
+    "preklad": "Ohebná žebrovaná chránička na kabely v zemi, v podlaze a ve stropě. Značka zlidověla; obecně kopoflex / kopos hadice.",
+    "realita": "Do země patří chránička určená do země, s výstražnou fólií nad sebou. Ohyby nesmí být tak ostré, aby šňůra neprošla. Rezervní chránička na data a FVE stojí haléře proti sekání. Zatahovat kabely pískem a hlínou bez hadice je budoucí rumiště."
+  },
+  {
+    "id": 399,
+    "pojem": "Hlavní jistič",
+    "kategorie": "Technologie",
+    "preklad": "Jistič před elektroměrem, který omezuje příkon domu. Od něj se odvíjí fakturace příkonu a to, jestli unesete čerpadlo, sporák a wallbox najednou.",
+    "realita": "Navýšení hlavního jističe je žádost u distributora, ne večerní výměna v rozvaděči. Poddimenzovaný jistič padá při myčce a troubě; předimenzovaný bez posílení přípojky je proti smlouvě. Než koupíte tepelné čerpadlo, nechte spočítat soudobost, ne jen „máme tři fáze“."
+  },
+  {
+    "id": 400,
+    "pojem": "Výměnek",
+    "kategorie": "Hrubá stavba",
+    "preklad": "Tesařská oprava shnilého konce trámu ve zdi: odřízne se poškozená část a nastaví se novým dřevem nebo ocelí. Nepleťte s výminkem v chalupě.",
+    "realita": "Pěna, tmel a „podložení cihlou“ shnilý konec nestojí. Výměnek musí přenést ohyb a kotvení ve zdivu. Často hnije práh a stropnice v kapse bez izolace. Než se trámy obalí SDK, chtějte posudek vlhkosti konců."
+  },
+  {
+    "id": 401,
+    "pojem": "Oběhové čerpadlo",
+    "kategorie": "Technologie",
+    "preklad": "Čerpadlo, které žene topnou vodu do radiátorů nebo podlahovky. Dnes většinou úsporné s řízením otáček (A-třída, PWM).",
+    "realita": "Starší neřízené čerpadlo žere proud a hučí. Špatně nastavený výkon hučí v hlavicích a nenažene vzdálené smyčky. Po odvzdušnění a filtru (odkalovači) vydrží líp. Výměna čerpadla je zásah do topení – uzavírací šroubení předem, ať nemusíte vypouštět dům."
   }
 ];
