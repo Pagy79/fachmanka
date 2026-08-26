@@ -3505,5 +3505,705 @@ window.FACHMANKA_TERMS = [
     "kategorie": "Technologie",
     "preklad": "Přístroj, který kreslí vodorovnou (nebo svislou) rovinu po místnosti. Na potěry, podhledy, zakládání.",
     "realita": "Špatně zkalibrovaný laser položí celý byt do spádu. Půjčený stroj chtějte zkontrolovat na známé výšce. Přijímač na lati u potěru není hračka – milimetry se počítají u dveří a sprchy."
+  },
+  {
+    "id": 502,
+    "pojem": "HSV (Hlavní stavební výroba)",
+    "kategorie": "Rozpočet",
+    "preklad": "Skupina položek hrubé stavby v rozpočtu – zemní práce, základy, zdi, stropy, krov. V ceníkových soustavách jde o „hlavní“ konstrukce, ne o instalace a povrchy.",
+    "realita": "Nabídka jen za HSV vypadá levně, protože chybí PSV. Srovnávejte vždy obě části. Když firma řekne „HSV máme, PSV si seženete“, počítejte s děrami v termínu i v ceně napojení."
+  },
+  {
+    "id": 503,
+    "pojem": "PSV (Přidružená stavební výroba)",
+    "kategorie": "Rozpočet",
+    "preklad": "Instalace a dokončovací práce v rozpočtu – voda, topení, elektro, omítky, podlahy, obklady, malby, truhlářina. Doplněk k HSV.",
+    "realita": "PSV rozhoduje o bydlení. Levná HSV a drahé PSV je běžný trik. Chtějte stejnou podrobnost položek jako u zdí – „komplet elektro paušál“ není srovnatelná nabídka."
+  },
+  {
+    "id": 504,
+    "pojem": "ÚRS / RTS",
+    "kategorie": "Rozpočet",
+    "preklad": "Dvě nejpoužívanější české cenové soustavy stavebních prací. Položky, normy spotřeby a orientační ceny, ze kterých se skládá položkový rozpočet.",
+    "realita": "Soustava není zákon. Cena „podle ÚRS“ může být i tak nadsazená, nebo naopak nereálná v regionu. Ptejte se, který ceník a které období platí, a jestli jsou v položkách i přesuny hmot."
+  },
+  {
+    "id": 505,
+    "pojem": "Zařízení staveniště (ZS)",
+    "kategorie": "Rozpočet",
+    "preklad": "Buňky, ocelové oplocení, staveništní elektřina, voda, skládky materiálu, lešení, jeřáb, toalety. Často schované ve VRN nebo jako samostatná položka.",
+    "realita": "Na stísněné parcele ZS sežere víc než u volného pozemku. Nechte si napsat, kdo platí jeřáb, kontejnery a elektřinu – a jestli se ZS na konci vůbec demontuje na účet firmy."
+  },
+  {
+    "id": 506,
+    "pojem": "Přenesená daňová povinnost",
+    "kategorie": "Rozpočet",
+    "preklad": "Režim DPH u stavebních prací mezi plátci: daň odvádí odběratel, na faktuře je sazba 0 % a poznámka o přenesení. Týká se dodávek stavebních prací, ne každého nákupu v hobby marketu.",
+    "realita": "Špatně vystavená faktura s DPH navíc, nebo naopak bez režimu, když má být, končí u účetní. Ověřte IČO a plátcovství firmy. U rekonstrukce bytu pro neplátce pravidla nejsou stejná jako u firmy."
+  },
+  {
+    "id": 507,
+    "pojem": "Předávací protokol",
+    "kategorie": "Rozpočet",
+    "preklad": "Zápis, že dílo nebo etapa se předává investorovi. Jsou v něm vady, nedodělky, stavy měřičů, klíče a odsouhlasený rozsah.",
+    "realita": "Podpis bez prohlídky je pozvánka k dohadům. Pište konkrétní vady, termíny odstranění a kdo drží zádržné. „Předáno bez výhrad“ u mokré stavby je hazard."
+  },
+  {
+    "id": 508,
+    "pojem": "Vady a nedodělky",
+    "kategorie": "Rozpočet",
+    "preklad": "To, co při předání nefunguje, chybí nebo je v rozporu se smlouvou. Vada je špatně, nedodělek je neuděláno. Obě patří do protokolu, ne do ústní sliby.",
+    "realita": "Firma ráda oddělí „kosmetiku“ od „statiky“. Kosmetika vás bude štípat každý den. Sepište seznam s fotkami a daty. Zádržné pouštějte až po opravách, ne po slibu."
+  },
+  {
+    "id": 509,
+    "pojem": "Autorský dozor (AD)",
+    "kategorie": "Rozpočet",
+    "preklad": "Dozor projektanta nad souladem stavby s dokumentací. Není to TDI – TDI hlídá investora, AD hlídá záměr autora projektu.",
+    "realita": "Bez AD se na stavbě kreslí „vylepšení“, která rozbijí statiku nebo energetiku. Smlouva má říct, kolik výjezdů je v ceně projektu a jak se platí změny."
+  },
+  {
+    "id": 510,
+    "pojem": "Koordinátor BOZP",
+    "kategorie": "Rozpočet",
+    "preklad": "Povinná osoba na stavbách, kde působí víc zhotovitelů. Koordinuje rizika, plán BOZP a oznámení na oblastní inspektorát práce.",
+    "realita": "Není to formalita pro razítko. Když na staveništi běhá pět part, bez koordinace padají lidé i termíny. Ptejte se, kdo ho platí a jestli na stavbu opravdu jezdí."
+  },
+  {
+    "id": 511,
+    "pojem": "DSP (Dokumentace pro stavební povolení)",
+    "kategorie": "Rozpočet",
+    "preklad": "Stupeň dokumentace k povolení stavby. Méně podrobný než DPS – stačí úřadům, na stavbu samotnou často nestačí.",
+    "realita": "Stavět jen podle DSP znamená vymýšlet detaily na místě. To jsou vícepráce. Na rodinný dům chtějte DPS nebo RDS, ne slib „to se vyřeší ve fabrice“."
+  },
+  {
+    "id": 512,
+    "pojem": "DÚR (Dokumentace pro územní rozhodnutí)",
+    "kategorie": "Rozpočet",
+    "preklad": "Raný stupeň dokumentace k umístění stavby v území – situace, napojení na sítě, limity pozemku. Ještě to není projekt, podle kterého se zdí.",
+    "realita": "DÚR neřeší skladby podlah ani počet zásuvek. Když vám někdo nacení dům z DÚR, je to odhad, ne smlouva na klíč."
+  },
+  {
+    "id": 513,
+    "pojem": "DPS (Dokumentace pro provedení stavby)",
+    "kategorie": "Rozpočet",
+    "preklad": "Podrobný projekt pro provádění – skladby, výztuž, detaily, výkazy. Má umožnit stavět a soutěžit cenu bez denního kreslení na zdi.",
+    "realita": "DPS bez koordinačních výkresů instalací je poloviční. Zkontrolujte, že voda, vzduch a statika sedí v jednom řezu, ne každý ve své složce."
+  },
+  {
+    "id": 514,
+    "pojem": "RDS (Realizační dokumentace stavby)",
+    "kategorie": "Rozpočet",
+    "preklad": "Ještě podrobnější prováděcí dokumentace, často od zhotovitele nebo specializované kanceláře. Doplňuje DPS o výrobní detaily a změny.",
+    "realita": "RDS nesmí tiše přepsat povolení. Změny dispozice a oken patří do změny stavby, ne do „realizační kreativity“. TDI má RDS číst, ne jen založit."
+  },
+  {
+    "id": 515,
+    "pojem": "DSPS (Dokumentace skutečného provedení)",
+    "kategorie": "Rozpočet",
+    "preklad": "Zaměření a výkresy toho, co se opravdu postavilo. Potřeba k užívání, k inženýrským sítím a k pozdějším úpravám.",
+    "realita": "Bez DSPS hledáte trubky ve zdi podle paměti partáka, který už je v jiném kraji. Trvejte na geodetickém zaměření přípojek a na zákresu změn."
+  },
+  {
+    "id": 516,
+    "pojem": "PBŘ (Požárně bezpečnostní řešení)",
+    "kategorie": "Technologie",
+    "preklad": "Část dokumentace, která řeší únikové cesty, požární úseky, odstupy, hasicí zařízení a zásah hasičů. Není to „pár hasicích přístrojů do chodby“.",
+    "realita": "Změna dispozice, otevřená galerie nebo krb může PBŘ shodit. Dřevostavba a zateplení mají svá pravidla. Nenechte si PBŘ kreslit až po kolaudaci."
+  },
+  {
+    "id": 517,
+    "pojem": "Stavební povolení",
+    "kategorie": "Rozpočet",
+    "preklad": "Správní akt, kterým úřad povoluje stavbu podle stavebního zákona. Rozsah, kdo ho potřebuje a jak se jmenuje, se měnil – u rodinných domů často stačí jiný režim.",
+    "realita": "Stavět „zatím bez papíru, povolení doběhne“ je klasická past. Pojišťovna i soused to umí využít. Ověřte u projektanta aktuální režim vaší stavby, ne historku z roku 2015."
+  },
+  {
+    "id": 518,
+    "pojem": "Ohlášení stavby",
+    "kategorie": "Rozpočet",
+    "preklad": "Jednodušší režim povolování u staveb, které zákon zařazuje mimo klasické povolení. Neznamená to stavět načerno – pořád platí limity a dokumentace.",
+    "realita": "Hranice mezi ohlášením, povolením a volnou stavbou se plete i řemeslníkům. Terasa, pergola a zateplení mají různá pravidla. Nenechte si to vyložit od party, která chce začít v pondělí."
+  },
+  {
+    "id": 519,
+    "pojem": "Změna stavby před dokončením",
+    "kategorie": "Rozpočet",
+    "preklad": "Úřední procedura, když se během stavby mění to, co bylo povoleno – dispozice, výška, vzhled, sítě. Není to zápis ve stavebním deníku.",
+    "realita": "Posunout okno o metr „protože se to víc líbí“ může být změna stavby. Bez ní máte problém u kolaudace. TDI má hlídat, co se ještě vejde do odchylky a co už ne."
+  },
+  {
+    "id": 520,
+    "pojem": "Pasport stavby",
+    "kategorie": "Rozpočet",
+    "preklad": "Zjednodušená dokumentace existující stavby, když původní výkresy chybí. Zaměření skutečného stavu pro úřad, prodej nebo rekonstrukci.",
+    "realita": "Pasport není statický posudek. Nakreslená zeď ještě neunese vestavbu. U starého domu ho chtějte před koupí, ať neplatíte projekt naslepo."
+  },
+  {
+    "id": 521,
+    "pojem": "±0,000",
+    "kategorie": "Hrubá stavba",
+    "preklad": "Výškový počátek projektu, většinou úroveň hotové podlahy prvního nadzemního podlaží. Od ní se odvíjejí všechny kóty výšek.",
+    "realita": "Když geodet, zedník a instalatér nemají stejnou nulu, vzniknou schody u dveří a sprcha bez spádu. Nechte si ±0,000 vytýčit a zapsat, ne „odhadnout od terénu“."
+  },
+  {
+    "id": 522,
+    "pojem": "Vytyčení stavby",
+    "kategorie": "Hrubá stavba",
+    "preklad": "Geodetické přenesení projektu do terénu – osy, hrany, výšky. Podklad k výkopu a k založení, s protokolem.",
+    "realita": "Vytyčení od souseda metrem přes plot není vytyčení. Chyba 15 cm u hranice pozemku je soud. Protokol a lavičky nenechávejte bagristovi „od oka“."
+  },
+  {
+    "id": 523,
+    "pojem": "Niveleta",
+    "kategorie": "Hrubá stavba",
+    "preklad": "Návrhová výška povrchu – komunikace, terénu, dna výkopu nebo potrubí. Říká, kudy má jít spád.",
+    "realita": "Špatná niveleta příjezdu znamená, že voda teče do garáže. U kanalizace spád pod minimum ucpe stoupačku. Chtějte kóty, ne „to spádujeme podle pocitu“."
+  },
+  {
+    "id": 524,
+    "pojem": "Inženýrské sítě",
+    "kategorie": "Hrubá stavba",
+    "preklad": "Voda, kanalizace, elektřina, plyn, datové kabely, někdy teplo. Na pozemku i v ulici. Jejich trasy a ochranná pásma limitují výkop i dům.",
+    "realita": "„Sítě jsou na hranici“ může znamenat rok čekání na smlouvu o připojení. Chtějte vyjádření správců před koupí pozemku. Překopnutý kabel optiky je drahý vtip."
+  },
+  {
+    "id": 525,
+    "pojem": "Koordinační situace",
+    "kategorie": "Rozpočet",
+    "preklad": "Výkres, který na jednu plochu složí dům, terén, přípojky, komunikace a stromy. Má ukázat kolize dřív, než bagr vyjede.",
+    "realita": "Bez koordinačky se voda kříží s elektřinou v jednom výkopu a septik sedí na vsaku. Ptejte se, kdo výkres držel – projektant, nebo „to vyřeší parta“."
+  },
+  {
+    "id": 526,
+    "pojem": "List vlastnictví (LV)",
+    "kategorie": "Rozpočet",
+    "preklad": "Výpis z katastru – kdo nemovitost vlastní, jaká břemena a zástavy na ní leží, jaké parcely k ní patří.",
+    "realita": "Stavět na pozemku, který není váš, nebo je zastavený, je noční můra banky. LV z loňska nestačí. Zkontrolujte věcná břemena k sítím a přístupové cestě."
+  },
+  {
+    "id": 527,
+    "pojem": "Věcné břemeno",
+    "kategorie": "Rozpočet",
+    "preklad": "Právo někoho jiného k vaší nemovitosti – cesta, přípojka, vedení. Je zapsané v katastru a přežije prodej.",
+    "realita": "Břemeno k kabelu může zakázat dům tam, kde jste chtěli terasu. Čtěte geometrický plán, ne jen větu realitky „nějaké břemeno tam je, ale nevadí“."
+  },
+  {
+    "id": 528,
+    "pojem": "ČKAIT",
+    "kategorie": "Rozpočet",
+    "preklad": "Česká komora autorizovaných inženýrů a techniků. Autorizace opravňuje podepisovat projekty a vedení stavby v oboru.",
+    "realita": "Facebooková skupina není autorizace. U statiky, požárna a TZB chtějte číslo autorizace. Razítko „za kamaráda“ na výkrese, který kreslil někdo jiný, vás neochrání."
+  },
+  {
+    "id": 529,
+    "pojem": "BOZP",
+    "kategorie": "Technologie",
+    "preklad": "Bezpečnost a ochrana zdraví při práci. Na stavbě helmy, zábradlí, lešení, školení, deník rizik – nejen cedule u vrátek.",
+    "realita": "Pád z krovu není „štěstí partáka“. Investor, který pouští na stavbu kutilské kamarády bez pojištění, sbírá odpovědnost. Ptejte se na plán BOZP, ne na úsměv."
+  },
+  {
+    "id": 530,
+    "pojem": "Úniková cesta",
+    "kategorie": "Technologie",
+    "preklad": "Trasa ven z budovy při požáru – šířka, délka, osvětlení, otevírání dveří. Navrhuje se v PBŘ, ne podle vzhledu interiéru.",
+    "realita": "Zasklená chodba, zúžené dveře a zámek na klíč zevnitř umí únikovou cestu zrušit. U bytového domu to hlídají hasiči přísněji než u chaty. Neměňte dispozici bez PBŘ."
+  },
+  {
+    "id": 531,
+    "pojem": "Požární úsek",
+    "kategorie": "Technologie",
+    "preklad": "Část stavby oddělená požárně odolnými konstrukcemi, aby se oheň nešířil dál. Prostupy sítí musí být ucpané požárními ucpávkami.",
+    "realita": "SDK příčka s dírou na kabely není požární předěl. Garáž, kotelna a byt mají jiná pravidla. Po rekonstrukci chtějte protokol o ucpávkách, ne pěnu z hobby marketu."
+  },
+  {
+    "id": 532,
+    "pojem": "REI",
+    "kategorie": "Technologie",
+    "preklad": "Značení požární odolnosti nosné konstrukce: R únosnost, E celistvost, I izolace – v minutách. Doplněk k EI u nenosných stěn.",
+    "realita": "REI 30 a EI 30 není totéž. Strop nad garáží není „obyčejný SDK“. Chtějte skladbu z projektu, ne slib, že to „nějak protipožárně zabalí“."
+  },
+  {
+    "id": 533,
+    "pojem": "SHZ (Stabilní hasicí zařízení)",
+    "kategorie": "Technologie",
+    "preklad": "Sprinklery nebo jiné automatické hašení. U běžného rodinného domu vzácné, u hromadných garáží a některých provozů povinné.",
+    "realita": "SHZ není hasicí přístroj. Když se objeví v PBŘ, je to drahý systém s čerpadlem, nádrží a revizemi. Neškrtněte ho z rozpočtu, aniž by se změnil projekt."
+  },
+  {
+    "id": 534,
+    "pojem": "Buňka",
+    "kategorie": "Rozpočet",
+    "preklad": "Montovaný kontejner na stavbě – šatna, kancelář stavbyvedoucího, sklad. Součást zařízení staveniště.",
+    "realita": "Buňka na sousedově pozemku bez dohody je konflikt. Elektřina do buňky z vašeho bytu „na kabel“ umí zabít jistič i vztahy. Zapište, kdo buňku platí a kdy zmizí."
+  },
+  {
+    "id": 535,
+    "pojem": "Skip",
+    "kategorie": "Rozpočet",
+    "preklad": "Hovorově kontejner na suť a odpad. Objem, druh odpadu a skládka určují cenu odvozu.",
+    "realita": "Do suti nepatří azbest, barvy ani elektro. Špatně vytříděný skip se vrací jako drahý problém. Ptejte se, kolik skipů je v ceně bourání – první je vždy „optimistický“."
+  },
+  {
+    "id": 536,
+    "pojem": "Suť",
+    "kategorie": "Rozpočet",
+    "preklad": "Stavební odpad z bourání a výkopu – cihly, beton, omítky. Třídí se, má objem i hmotnost, odvoz je položka, ne dárek.",
+    "realita": "Kubík suti váží jinak u cihel a u železobetonu. Cena „odvoz v ceně“ bez limitu tun je slib. Váhy na skládce umí překvapit víc než rozpočet bourání."
+  },
+  {
+    "id": 537,
+    "pojem": "Fůra",
+    "kategorie": "Rozpočet",
+    "preklad": "Hovorově jedna dodávka auta – písek, kačírek, cihly, suť. Objem záleží na korbě, ne na pocitu řidiče.",
+    "realita": "Fůra od fůry se liší o kubíky. Plaťte podle váhy nebo zaměřeného objemu, ne podle počtu jízd. „Ještě jednu fůru navíc“ bez zápisu je klasická díra v rozpočtu."
+  },
+  {
+    "id": 538,
+    "pojem": "Návoz",
+    "kategorie": "Rozpočet",
+    "preklad": "Dovoz materiálu na stavbu. Zahrnuje dopravu, nakládku, někdy i mechanizaci. V rozpočtu často ve VRN nebo u položky materiálu.",
+    "realita": "Návoz na sídliště s parkovacími zónami není návoz na pole. Jeřáb z ulice chce zábor. Když materiál „někdo přiveze večer“, ověřte, kam ho složí, ať nezmokne."
+  },
+  {
+    "id": 539,
+    "pojem": "Paleta",
+    "kategorie": "Materiál",
+    "preklad": "Přepravní podlaha pod cihly, pytle, dlažbu. Vratná paleta má kauci, jednorázová končí ve dřevu na topení, když to nikdo nehlídá.",
+    "realita": "Paletovné se rádo „zapomene“ vrátit. Cihly na paletě ve blátě nasají vodu. Počítejte místo na složení – paleta uprostřed výkopu zastaví bagr."
+  },
+  {
+    "id": 540,
+    "pojem": "Big bag",
+    "kategorie": "Materiál",
+    "preklad": "Velký vak na sypký materiál nebo suť, obvykle kolem tuny. Hodí se tam, kam skip nevejde.",
+    "realita": "Mokrý big bag s betonem utrhne manipulační oka. Jeřábník ho musí chtít zvedat. Cena za kus vypadá levně, než jich na dvoře stojí dvanáct."
+  },
+  {
+    "id": 541,
+    "pojem": "Kubík",
+    "kategorie": "Rozpočet",
+    "preklad": "Hovorově metr krychlový. Beton, výkop, dřevo na palivě, kačírek. Základní jednotka objemu na stavbě.",
+    "realita": "Kubík výkopu v rozpočtu a kubík na korbě auta se neshodují kvůli nakypření. Beton se objednává v m³, ne v „kádích“. Ptejte se, jestli jednotka je hutněný, nebo sypaný stav."
+  },
+  {
+    "id": 542,
+    "pojem": "Čtverec",
+    "kategorie": "Rozpočet",
+    "preklad": "Hovorově metr čtvereční. Omítky, dlažba, fasáda, podlaha. V nabídce často „za čtverec“ bez výměry ostění a přesahů.",
+    "realita": "Čtverec podlahy není čtverec obkladu včetně niky a ostění. Prořez u dlažby čtverec nenahradí. Chtějte výměru z výkresu, ne odhad z obýváku."
+  },
+  {
+    "id": 543,
+    "pojem": "Parták",
+    "kategorie": "Rozpočet",
+    "preklad": "Vedoucí party řemeslníků na stavbě. Není to stavbyvedoucí s autorizací – je to ten, kdo rozdává práci na místě.",
+    "realita": "Slovo partáka platí, jen když to umí zapsat do deníku. Rozhodnutí o změně dispozice nepatří partákovi. Zjistěte, kdo má razítko a kdo jen telefon."
+  },
+  {
+    "id": 544,
+    "pojem": "Stavbyvedoucí",
+    "kategorie": "Rozpočet",
+    "preklad": "Osoba odpovědná za provádění stavby, u vybraných staveb s autorizací. Vede deník, koordinuje profese, odpovídá za soulad s projektem.",
+    "realita": "Stavbyvedoucí „na telefonu z jiného okresu“ stavbu nevede. Ptejte se na jméno ve smlouvě a na to, kolik staveb má souběžně. TDI a stavbyvedoucí nejsou tentýž člověk."
+  },
+  {
+    "id": 545,
+    "pojem": "Míchačka",
+    "kategorie": "Technologie",
+    "preklad": "Stroj na míchání malty a betonu. Na stavbě od malé elektrické po autodomíchávač. Poměr složek určuje pevnost, ne zvuk motoru.",
+    "realita": "Míchačka „od oka“ u základů je hazard. Voda navíc beton oslabí. U konstrukčního betonu chtějte závoz z betonárny s dodacím listem, ne domácí kuchyň."
+  },
+  {
+    "id": 546,
+    "pojem": "Žirafa",
+    "kategorie": "Dokončovačky",
+    "preklad": "Bruska na dlouhém krku na sádrokartonové stropy a stěny. Brousí spáry a stěrku bez lešení na každém metru.",
+    "realita": "Žirafa bez vysavače zapráší celý byt. Brousit v noci nad sousedy je cesta k vyhlášce. Požadujte odsávání a zakrytí podlah – prach ze stěrky není „trocha nepořádku“."
+  },
+  {
+    "id": 547,
+    "pojem": "Brnkačka",
+    "kategorie": "Dokončovačky",
+    "preklad": "Zednická šňůra s barvou – „brnknutím“ kreslí rovnou čáru na zeď nebo podlahu. Základ rasto ostění, obkladu a omítek.",
+    "realita": "Křivá brnkačka zakládá křivý obklad. Na savém podkladu barva zmizí. Není to laser, ale parta bez šňůry skládá křížky podle oka – to u velkoformátu neuvidíte rádi."
+  },
+  {
+    "id": 548,
+    "pojem": "Libela",
+    "kategorie": "Dokončovačky",
+    "preklad": "Vodováha – bublina v kapalině ukazuje vodorovinu a svislici. Délka latě rozhoduje, jestli uvidíte prohnutí stěny.",
+    "realita": "Krátká libela na dlouhé zdi lže. Pádnutá vodováha lže taky. U zakládání první řady cihel a u sprchového spádu chtějte dlouhou lať, ne kapesní dvoudecimetr."
+  },
+  {
+    "id": 549,
+    "pojem": "Aku",
+    "kategorie": "Technologie",
+    "preklad": "Hovorově akumulátorové nářadí – šroubovák, bourací kladivo, pila. Bez kabelu, s baterií, která v zimě slábne.",
+    "realita": "Aku vrtačka nezvládne vrtání do železobetonu jako síťové kladivo. Parta s vybitými baterkami v pátek odpoledne „počká na pondělí“. To není vícepráce, to je logistika."
+  },
+  {
+    "id": 550,
+    "pojem": "Prodlužovačka",
+    "kategorie": "Technologie",
+    "preklad": "Prodlužovací kabel na stavbě. Průřez vodiče a jištění rozhodují, jestli odejde jen jistič, nebo i nářadí.",
+    "realita": "Tenká prodlužovačka na 50 m k míchačce je oheň ve smotku. Bubny se mají odvíjet. Staveništní rozvaděč s proudovým chráničem není volitelný doplněk."
+  },
+  {
+    "id": 551,
+    "pojem": "Bourací kladivo",
+    "kategorie": "Technologie",
+    "preklad": "Pneumatické nebo elektrické kladivo na bourání betonu a zdiva. Sekáč a špice nejsou totéž co vrtací kladivo na hmoždinky.",
+    "realita": "Bourání v paneláku bez dohody se sousedy a bez statika u nosné zdi je extrém. Prašnost a otřesy jdou přes stropy. Chtějte režim hodin a odsávání, ne celodenní „to rychle rozbijeme“."
+  },
+  {
+    "id": 552,
+    "pojem": "Chemická kotva",
+    "kategorie": "Materiál",
+    "preklad": "Lepicí malta do vyvrtaného otvoru, do které se vsadí závitová tyč nebo rebar. Drží v betonu a zdivu tam, kde hmoždinka nestačí.",
+    "realita": "Díra plná prachu nechytí. Teplota, vlhkost a doba zrání jsou v listu, ne v pocitu partáka. Nosné kotvy balkonu nepatří do „obyčejné pěny“."
+  },
+  {
+    "id": 553,
+    "pojem": "Hmoždinka",
+    "kategorie": "Materiál",
+    "preklad": "Rozpěrná hmoždinka do zdiva a betonu – plastová, ocelová, do dutin. Typ musí sedět na materiál zdi, ne na to, co zbylo v kufru.",
+    "realita": "Hmoždinka do SDK v nosné cihle je vtip. Do duté tvárnice patří dutinová, do betonu betonová. Police s televizí na špatné hmoždince padá v noci."
+  },
+  {
+    "id": 554,
+    "pojem": "Závitová tyč",
+    "kategorie": "Materiál",
+    "preklad": "Ocelová tyč se závitem, často M8–M16, do chemické kotvy, třmenů a závěsů. Jakost oceli není totéž u pozinku a nerez.",
+    "realita": "Řezat tyč flexou bez závitové opravné čelisti znamená, že matka nejde. Venkovní kotvení chce nerez nebo žárový zinek, ne černou ocel z hobbymarketu."
+  },
+  {
+    "id": 555,
+    "pojem": "Konstrukční vrut",
+    "kategorie": "Materiál",
+    "preklad": "Silný vrut do dřeva s certifikací na nosné spoje – krov, terasa, dřevostavba. Není to univerzal z blistru.",
+    "realita": "Hřebík „protože tak to dělal děda“ u krovu dnes neprojde. Průměr, délka a ocel mají být ve výpisu. Rezavý vrut v terase utrhne prkno pod židlí."
+  },
+  {
+    "id": 556,
+    "pojem": "Cement 32,5 / 42,5",
+    "kategorie": "Materiál",
+    "preklad": "Třída cementu podle pevnosti v tlaku po 28 dnech. 42,5 je „silnější“ a často rychleji tuhne než 32,5. Není to značka pytle z marketu.",
+    "realita": "Záměna třídy v maltě na věnci není kosmetika. Starý zavlhly cement ztrácí pevnost. Datum na pytli a suchý sklad hlídejte víc než logo."
+  },
+  {
+    "id": 557,
+    "pojem": "Pytel 25 kg",
+    "kategorie": "Materiál",
+    "preklad": "Běžné balení malt, lepidel, stěrek a cementu. Výměra se počítá na pytle podle spotřeby z technického listu, ne podle odhadu „pár pytlů“.",
+    "realita": "Pytel navíc zmokne a ztvrdne. Pytel málo zastaví partu v pátek. Chtějte spotřebu z výměry a rezervu jako u dlažby – ne otevřenou živnost „uvidíme na místě“."
+  },
+  {
+    "id": 558,
+    "pojem": "Zednická lžíce",
+    "kategorie": "Dokončovačky",
+    "preklad": "Nářadí na nahození malty a omítky. Šířka a tvar se liší podle zdiva a omítky. Základ řemesla vedle hladítka.",
+    "realita": "Lžíce neomluví špatný poměr malty. Silná spára „lžící navíc“ u broušené cihly kazí statiku i tepelný most. Sledujte tloušťku spáry, ne jen tempo party."
+  },
+  {
+    "id": 559,
+    "pojem": "Hladítko",
+    "kategorie": "Dokončovačky",
+    "preklad": "Deska na stažení a hlazení omítky, stěrky nebo betonu – dřevo, molitan, nerez, plast. Gletovací hladítko je jiné než na jádro.",
+    "realita": "Špatné hladítko na sádrové stěrce nechá škrábance, které malba nezakryje. Filcování a gletování mají svá hladítka. Nenechte si „stačit to prknem“ u pohledových ploch."
+  },
+  {
+    "id": 560,
+    "pojem": "Podkladní beton",
+    "kategorie": "Hrubá stavba",
+    "preklad": "Chudší betonová deska pod hydroizolaci nebo pod základy – srovná výkop a dá izolaci rovný podklad. Není to nosná deska domu.",
+    "realita": "Podkladní beton s kašovitým spádem k jednomu rohu utopí izolaci ve vodě. Tloušťka a rovinnost se mají měřit. Nemíchejte ho s nosnou deskou v jedné položce."
+  },
+  {
+    "id": 561,
+    "pojem": "Chudý beton",
+    "kategorie": "Hrubá stavba",
+    "preklad": "Beton nízké pevnostní třídy na podsypy, výplně a podkladní vrstvy. Neunese dům, jen srovná a vyplní.",
+    "realita": "Chudý beton do „díry ve věnci“ není oprava statiky. Zaměnit C12/15 a C25/30 u sloupku je drahá chyba. Dodací list z betonárny patří do deníku."
+  },
+  {
+    "id": 562,
+    "pojem": "Vázání výztuže",
+    "kategorie": "Hrubá stavba",
+    "preklad": "Spojování prutů a sítí vázacím drátem podle výkresu výztuže. Vzdálenosti, přesahy a krytí betonu jsou dané, ne odhadnuté.",
+    "realita": "Chybějící třmínek u patky se po zabetonování neřeší. Fotky výztuže před betonáží jsou vaše pojištění. Vazač a stavbyvedoucí mají držet výkres, ne paměť."
+  },
+  {
+    "id": 563,
+    "pojem": "Pilotáž",
+    "kategorie": "Hrubá stavba",
+    "preklad": "Zakládání na pilotách – vrtaných nebo ražených sloupech do únosné vrstvy. Tam, kde pasy a deska nestačí, nebo je vysoká hladina vody.",
+    "realita": "Pilotáž není „pár děr bagrem“. Průměr, hloubka a výztuž jsou ze statiky a geologie. Šetřit na počtu pilot je šetřit na trhlinách v přízemí."
+  },
+  {
+    "id": 564,
+    "pojem": "Mikropiloty",
+    "kategorie": "Hrubá stavba",
+    "preklad": "Tenké vrtané piloty, často k podepření stávajícího domu při podkopání nebo na stísněném dvoře. Injektáž a ocelové jádro nesou zatížení.",
+    "realita": "Mikropiloty u sousedního zdiva chtějí monitoring trhlin. Firma bez zkušenosti s podchycením umí dům „opravit“ tak, že se nakloní. Statik má být na stavbě, ne jen na titulní straně."
+  },
+  {
+    "id": 565,
+    "pojem": "Štětovnice",
+    "kategorie": "Hrubá stavba",
+    "preklad": "Záporové nebo ocelové pažení zarážené do země, aby výkop nesesunul okolí a vodu. Dočasná konstrukce, někdy ztracená.",
+    "realita": "Výkop u sousedovy patky bez pažení je pozvánka k pojistce. Štětovnice hučí a vibrují – domluvte režim. Demontáž „necháme ve zemi“ má být ve smlouvě, ne překvapení."
+  },
+  {
+    "id": 566,
+    "pojem": "Stavební jímka",
+    "kategorie": "Hrubá stavba",
+    "preklad": "Jáma ve výkopu na čerpání spodní vody, nebo dočasná stavební jáma jako celek. Není to žumpa na splašky.",
+    "realita": "Čerpat vodu do kanalizace bez smlouvy je přestupek. Jímka bez pažení se zasype i s čerpadlem. Geolog a statik mají říct, jestli voda je epizoda, nebo režim stavby."
+  },
+  {
+    "id": 567,
+    "pojem": "DČOV",
+    "kategorie": "Technologie",
+    "preklad": "Domovní čistírna odpadních vod. Mechanicko-biologická náhrada žumpy tam, kde není kanalizace. Potřebuje povolení, revize a elektřinu.",
+    "realita": "DČOV není sud, do kterého „to nějak teče“. Bez kolaudace a smlouvy o vyvážení kalu máte problém. Zimní provoz a dovolená bez lidí čistírnu umí zabít – čtěte návod."
+  },
+  {
+    "id": 568,
+    "pojem": "Splašková kanalizace",
+    "kategorie": "Technologie",
+    "preklad": "Potrubí na splašky z WC, koupelny a kuchyně. Oddělené od dešťové, jiný spád, jiné šachty, jiná pravidla napojení.",
+    "realita": "Svést dešťovku do splašků je zakázané a sousedé to poznají při přívalovém dešti. Revizní šachta na hranici není ozdoba. Kamerové zkoušky před záhozem šetří rozkopaný trávník."
+  },
+  {
+    "id": 569,
+    "pojem": "Dešťová kanalizace",
+    "kategorie": "Technologie",
+    "preklad": "Oddílné potrubí na srážkovou vodu ze střech a zpevněných ploch do vsaku, retence nebo dešťové stoky. Ne do splašků.",
+    "realita": "Město může zakázat vypouštění dešťovky do jednotné stoky. Retence a vsak mají výpočet, ne „díru v koutě zahrady“. Lapač listí u svodu není celý systém."
+  },
+  {
+    "id": 570,
+    "pojem": "Hlavní uzávěr vody",
+    "kategorie": "Technologie",
+    "preklad": "Kohout, kterým se zavře voda pro dům nebo byt – u vodoměru, v šachtě nebo ve sklepě. Má být přístupný a označený.",
+    "realita": "Až teče strop, hledáte uzávěr ve tmě. Po rekonstrukci ho nenechte zazdít za kuchyňskou linku. Vyzkoušejte, že jde zavřít, než parta odjede."
+  },
+  {
+    "id": 571,
+    "pojem": "Elektropřípojka NN",
+    "kategorie": "Technologie",
+    "preklad": "Nízké napětí – přípojka od sítě distributora k elektroměrovému rozvaděči. Smlouva o připojení, jistič a sazba nejsou totéž co interně tahané CYKY.",
+    "realita": "Čekání na přípojku umí zastavit celou stavbu. Staveništní elektřina z prodlužovačky od souseda není přípojka. Hlavní jistič a místo měření řešte s projektantem elektro včas."
+  },
+  {
+    "id": 572,
+    "pojem": "Plynová přípojka",
+    "kategorie": "Technologie",
+    "preklad": "Přivedení plynu od řadu k HUP a plynoměru. Tlaková zkouška, revize a oprávněná firma – ne kutil s hadicí.",
+    "realita": "Plyn ve starém domě může být zrušený na papíře a přitom v zemi. Kopání bez vyjádření správce je hazard. Kotel „zatím na propan“ má jiná pravidla než zemní plyn."
+  },
+  {
+    "id": 573,
+    "pojem": "Závěsné WC",
+    "kategorie": "Dokončovačky",
+    "preklad": "Mísa na instalačním předstěnovém prvku, splachování ve zdi, tlačítko na obkladu. Chce nosný rám, revizi a správnou výšku.",
+    "realita": "Rám musí být v rovině a ukotvený, ne „přidržet do obkladu“. Revizní otvor neschovávejte za skříňku bez dna. Tesnění mísy se po obkladu špatně předělává."
+  },
+  {
+    "id": 574,
+    "pojem": "Lapač tuku",
+    "kategorie": "Technologie",
+    "preklad": "Nádrž nebo podlinkový filtr, který chytí tuk z kuchyně, aby nezalepil kanalizaci. U provozoven často povinný, u domácnosti občas v projektu.",
+    "realita": "Bez vývozu kalu lapač smrdí a přetéká. Napojit myčku mimo lapač, když je v projektu, je zkratka k ucpání ležaté. Revize a přístup musí zůstat po kuchyňské lince."
+  },
+  {
+    "id": 575,
+    "pojem": "Jeřáb",
+    "kategorie": "Hrubá stavba",
+    "preklad": "Zvedací stroj na krov, stropní panely, vazníky, palety. Autojeřáb na den, věžový na měsíce. Zábor ulice a vazač patří k ceně.",
+    "realita": "Jeřáb „na hodinu“ čekající na nedodaný krov stojí víc než krov. Nosnost a vyložení musí sedět na nejtěžší kus. Pod jeřábem nepatří dětské pískoviště ani sousedova střecha bez dohody."
+  },
+  {
+    "id": 576,
+    "pojem": "Manipulátor",
+    "kategorie": "Hrubá stavba",
+    "preklad": "Teleskopický nakladač – zednický „jeřábek“ na palety, krovové vazníky a big bagy tam, kam autojeřáb nevleze.",
+    "realita": "Mokrá hlína a manipulátor s paletou cihel je převrácení. Únosnost terénu a plyn pod koly řešte předem. Pronájem na „pár dní navíc“ sežere rezervu rychleji než materiál."
+  },
+  {
+    "id": 577,
+    "pojem": "Montážní plošina",
+    "kategorie": "Technologie",
+    "preklad": "Pojízdná nebo nůžková plošina na fasády, podhledy a haly. Není to žebřík a není to lešení na měsíce.",
+    "realita": "Plošina na svahu bez vyložených opěr padá. Obsluha má mít oprávnění. Na fasádě s měkkým zateplením kola umí udělat díry – chtějte fošny pod kola."
+  },
+  {
+    "id": 578,
+    "pojem": "Fasádní lešení",
+    "kategorie": "Hrubá stavba",
+    "preklad": "Rámové nebo trubkové lešení podél fasády – kotvení do zdi, podlahy, zábradlí, sítě. Položka ZS i BOZP.",
+    "realita": "Lešení bez kotev a s chybějícím zábradlím není úspora, je to úraz. Kotvy po demontáži chtějí záplaty v zateplení. Cena za m² fasády má říct, kolikrát se staví a skládá."
+  },
+  {
+    "id": 579,
+    "pojem": "Zachycovací postroj",
+    "kategorie": "Technologie",
+    "preklad": "Bezpečnostní postroj a lany proti pádu z výšky – krov, střecha, ocelová konstrukce. Kotevní bod musí unést pád, ne hřebík ve štítu.",
+    "realita": "Postroj na hřebíku u komína je divadlo. U pokrývačů a klempířů ho chtějte vidět, ne v deníku. Investor pouštějící kutila na střechu bez jištění sbírá vinu."
+  },
+  {
+    "id": 580,
+    "pojem": "Schodnice",
+    "kategorie": "Hrubá stavba",
+    "preklad": "Šikmý nosník schodiště, na který se osazují stupně. U dřevěného i ocelového schodiště základní prvek; u betonového je schodnice v masivu.",
+    "realita": "Úzká schodnice a široký stupeň se houpají. Požární a únikové schodiště má jiné rozměry než sklepní žebřík. Výška stupně se má držet v celém rameni, ne „na dojezdu zkrátíme“."
+  },
+  {
+    "id": 581,
+    "pojem": "Podesta",
+    "kategorie": "Hrubá stavba",
+    "preklad": "Vodorovná plocha ve schodišti – mezipodesta nebo podesta u dveří. Přerušuje rameno, dává odpočinek a místo na zábradlí.",
+    "realita": "Chybějící podesta u dlouhého ramene je nepohodlí i problém PBŘ. Výška podesty musí sedět na hotovou podlahu, ne na hrubý strop. Dveře otevírané na první stupeň jsou past."
+  },
+  {
+    "id": 582,
+    "pojem": "Podstupnice",
+    "kategorie": "Dokončovačky",
+    "preklad": "Svislá deska stupně – čelo schodu. Nášlap je vodorovný povrch, podstupnice svislá. U otevřeného schodiště může chybět.",
+    "realita": "Různá výška nášlapů s podstupnicí „jak vyšla dlažba“ je úraz. U dětí a stínících hran chtějte kontrastní nos. Obklad schodů se měří po kusech, ne po čtvercích podlahy."
+  },
+  {
+    "id": 583,
+    "pojem": "Půdní schody",
+    "kategorie": "Dokončovačky",
+    "preklad": "Skládací nebo výsuvné schody do půdy, osazené do stropního otvoru. Tepelná těsnost poklopu rozhoduje o úniku tepla.",
+    "realita": "Levné schody bez těsnění jsou díra v zatepleném stropě. Požární odolnost stropu se otvorem kazí. Osazení do trámu bez výměny je řezání nosné konstrukce naslepo."
+  },
+  {
+    "id": 584,
+    "pojem": "Střešní výlez",
+    "kategorie": "Hrubá stavba",
+    "preklad": "Otvor a poklop na střechu kvůli komínu, anténě a údržbě. Není to střešní okno do obýváku – má jiné těsnění a žebřík.",
+    "realita": "Výlez bez pojistné hydroizolace teče k trámům. Umístění mimo výlezovou cestu k hřebeni znamená chůzi po křehké krytině. Klempíř a pokrývač ho mají v detailu, ne „někde u vikýře“."
+  },
+  {
+    "id": 585,
+    "pojem": "Bojler",
+    "kategorie": "Technologie",
+    "preklad": "Zásobníkový ohřívač teplé vody – elektrický, kombinovaný s kotlem nebo TČ. Objem v litrech, izolace a výkony hadů nejsou totéž u všech „160l“.",
+    "realita": "Malý bojler u vany znamená studenou sprchu pro druhého. Kombinace s TČ chce správný objem a teplotu legionel. Odkap z pojistného ventilu do kbelíku není instalace."
+  },
+  {
+    "id": 586,
+    "pojem": "Kondenzační kotel",
+    "kategorie": "Technologie",
+    "preklad": "Plynový kotel, který využívá teplo spalin. Chce odvod kondenzátu, správný komín nebo stěnové vyústění a nízkoteplotní otopnou soustavu.",
+    "realita": "Starý komín bez vložky kondenzát rozpustí. Kotel v koupelně a sání z místnosti mají pravidla. Účinnost z letáku neplatí, když jezdíte na 80 °C do radiátorů z roku 1980."
+  },
+  {
+    "id": 587,
+    "pojem": "Krbová vložka",
+    "kategorie": "Technologie",
+    "preklad": "Uzavřený krb s dvířky a výměníkem nebo sáláním do interiéru. Komín, přívod vzduchu a odstupy od hořlavých konstrukcí jsou povinnost, ne dekorace.",
+    "realita": "Vložka do dřevostavby bez izolace je požár. Rekuperace a krb se perou o vzduch – projekt má říct, odkud vložka dýchá. „Jen na atmosféru“ pořád chce revizi komína."
+  },
+  {
+    "id": 588,
+    "pojem": "Tepelné čerpadlo vzduch-voda",
+    "kategorie": "Technologie",
+    "preklad": "Nejběžnější TČ u rodinných domů: teplo z venkovního vzduchu do otopné vody. Venkovní jednotka hučí, v mrazu topí hůř, záložní elektrokotel je častý.",
+    "realita": "Jednotka pod ložnicí souseda je konflikt. Výkon z brožury je u +7 °C, ne u −12 °C. Nízkoteplotní podlahovka mu sedí, staré radiátory míň – to má spočítat projekt, ne sleva z e-shopu."
+  },
+  {
+    "id": 589,
+    "pojem": "Zemní vrt pro TČ",
+    "kategorie": "Technologie",
+    "preklad": "Hluboký vrt ke kolektoru tepelného čerpadla země-voda. Povolení, hydrogeologie a vzdálenost vrtů nejsou bagr na zahradě.",
+    "realita": "Vrt u studny a u souseda má pravidla. Úspora proti vzduch-vodě se vrátí jen při správném počtu metrů. „Krátký vrt, ať to vyjde levněji“ topí elektřinou v tichosti."
+  },
+  {
+    "id": 590,
+    "pojem": "Šedá voda",
+    "kategorie": "Technologie",
+    "preklad": "Odpad z umyvadel, sprch a pračky – ne z WC. Po úpravě se dá splachovat nebo zalévat. Jiný okruh než dešťová voda.",
+    "realita": "Míchat šedou vodu s dešťovkou a se splašky je cesta k hygieně i k úřadu. Filtry a nádrž chtějí místo a údržbu. Není to „hadice od sprchy do sudu“."
+  },
+  {
+    "id": 591,
+    "pojem": "Domácí vodárna",
+    "kategorie": "Technologie",
+    "preklad": "Čerpadlo, tlaková nádoba a automatika k vodě ze studny nebo ze zásobníku. Drží tlak v domě, když nejde obecní řad.",
+    "realita": "Suchoběh bez ochrany spálí čerpadlo. Tlaková nádoba s prázdným vakem spíná každou minutu. Filtr písku před vodárnou není volitelný, když vrt sype."
+  },
+  {
+    "id": 592,
+    "pojem": "Kalové čerpadlo",
+    "kategorie": "Technologie",
+    "preklad": "Čerpadlo na vodu s nečistotami – stavební jáma, sklep, přečerpání žumpy. Průchodnost oběžného kola rozhoduje, ne jen příkon.",
+    "realita": "Zahradní čerpadlo na kal z výkopu odejde první den. Hadice nahoru bez zpětné klapky se vrací. Elektrika ve vodě patří na chránič, ne na smotanou prodlužovačku."
+  },
+  {
+    "id": 593,
+    "pojem": "Perlátor",
+    "kategorie": "Dokončovačky",
+    "preklad": "Sítko na konci baterie, které míchá vodu se vzduchem. Šetří průtok a srovnává proud. Ukazuje i kameny ve vodě.",
+    "realita": "Zanesený perlátor „slabý tlak“ není vždy vodárna. Po stavbě v něm bývá špona a písek – první servis je odšroubovat, ne měnit stoupačku. Na perlátoru se pozná i špatně odfouknutý rozvod."
+  },
+  {
+    "id": 594,
+    "pojem": "Prostorový termostat",
+    "kategorie": "Technologie",
+    "preklad": "Čidlo a ovladač teploty v místnosti – drátový nebo bezdrátový. Řídí kotel, TČ nebo zónový ventil, ne jen ikonu na zdi.",
+    "realita": "Termostat nad radiátorem nebo na slunci lže. Jeden termostat pro celý dům s podlahovkou bojuje se setrvačností. Umístění má být v projektu, ne „u dveří, ať to je po ruce“."
+  },
+  {
+    "id": 595,
+    "pojem": "Filtry rekuperace (G4/F7)",
+    "kategorie": "Technologie",
+    "preklad": "Vložky ve vzduchotechnice: G4 hrubý prach, F7 jemný pyl a saze. Bez výměny rekuperace fouká méně a špiní výměník.",
+    "realita": "Filtry nejsou „doživotní s jednotkou“. Levná no-name vložka netěsní v rámečku. Zapište interval výměny do předání – jinak za rok řešíte hlučnost a účet za servis výměníku."
+  },
+  {
+    "id": 596,
+    "pojem": "Venkovní jednotka",
+    "kategorie": "Technologie",
+    "preklad": "Část split klimatizace nebo tepelného čerpadla venku – kompresor, ventilátor, výměník. Hluk, odkap kondenzátu a odstupy od oken řeší projekt i sousedské právo.",
+    "realita": "Jednotka nad ložnicí a odvod na chodník jsou stížnosti. Držáky do zateplení bez kotev do zdi padají. Servisní přístup a sníh pod jednotkou se řeší před montáží, ne v únoru."
+  },
+  {
+    "id": 597,
+    "pojem": "Igelit",
+    "kategorie": "Dokončovačky",
+    "preklad": "Hovorově zakrývací fólie na podlahy, kuchyňskou linku a nábytek při malbě a broušení. Není to parozábrana ani hydroizolace.",
+    "realita": "Igelit pod malířem, který netěsní u soklu, znamená přebrousit podlahu. Na schodech je to kluziště. Zakrývání má být v ceně malby, ne „investor si to nějak hodí“."
+  },
+  {
+    "id": 598,
+    "pojem": "Stretch fólie",
+    "kategorie": "Materiál",
+    "preklad": "Pružná balicí fólie na palety, dveře, kuchyňské skříňky a hotové povrchy. Drží prach a hranu, dokud se nestěhuje.",
+    "realita": "Stretch na čerstvě lakovaných dveřích nechá otisk. Na venkovní paletě cihel nechrání před deštěm jako plachta. Po předání ho sundejte – pod ním se sráží voda a plesniví práh."
+  },
+  {
+    "id": 599,
+    "pojem": "Tesařská tužka",
+    "kategorie": "Dokončovačky",
+    "preklad": "Plochá tužka na dřevo, beton i zdivo. Stopa je silnější než kancelářská, jde číst na krovu i na OSB.",
+    "realita": "Kóty obyčejnou propiskou na mokrém betonu zmizí. Tesař bez značení řeže dvakrát. Není to geodet – ale party, která nic nepíše na trám, pak vyměňuje špatně uříznuté krokve na váš účet."
+  },
+  {
+    "id": 600,
+    "pojem": "Zábor veřejného prostranství",
+    "kategorie": "Rozpočet",
+    "preklad": "Povolení k dočasnému obsazení chodníku nebo silnice – lešení, jeřáb, kontejner, skládka. Poplatky obci a dopravní značení nejsou v ceně zdiva.",
+    "realita": "Bez záboru strážníci i sousedé zastaví skip. Jeřáb z vozovky bez povolení stojí víc než poplatek. Zjistěte, kdo žádost podává a kdo platí dny navíc, když stavba sklouzne."
+  },
+  {
+    "id": 601,
+    "pojem": "Autorizační razítko",
+    "kategorie": "Rozpočet",
+    "preklad": "Kulaté razítko autorizované osoby ČKAIT nebo ČKA na projektu, statice, PBŘ. Číslo autorizace musí jít ověřit.",
+    "realita": "Oskenované razítko z jiného projektu je podvod. Výkres bez razítka u povinných částí úřad nechce. Ověřte jméno na komoře, než zaplatíte „komplet projekt“ z inzerátu."
   }
-];
+]
